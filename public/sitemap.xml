@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Primary Homepage -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Core Practice Sections -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#services</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#contact</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#about</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#core-values</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#industries</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#diagnostic</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#workflow</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#why-us</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#faq</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Service Categories & Detail Profiles -->
+  <!-- 1. Income Tax Return (ITR) Filing -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/income-tax-itr</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 2. GST Registration -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/gst-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3. GST Return Filing (GSTR-1, 3B, 9) -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/gst-returns</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 4. TDS / TCS Compliance & Form 16 -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/tds-tcs-services</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 5. Private Limited Company Incorporation -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/private-limited-company</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 6. Limited Liability Partnership (LLP) -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/llp-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 7. Partnership Firm Registration -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/firm-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 8. Udyam MSME Registration -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/udyam-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 9. Gumasta / Mumbai Shop & Establishment -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/gumasta-shop-establishment</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 10. Financial Accounting Services -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/accounting-services</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 11. Routine Bookkeeping & BRS -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/bookkeeping</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 12. ROC Annual Filing & MCA Compliance -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/roc-compliance</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 13. EPFO & Provident Fund (PF) Services -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/pf-services</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 14. FSSAI Food Safety Registration & License -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/fssai-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 15. Class 3 Digital Signature Certificate (DSC) -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/digital-signature-certificate</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 16. Trademark Registration Assistance -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/trademark-registration</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 17. Import Export Code (IEC) Registration -->
+  <url>
+    <loc>https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/#/service/import-export-code</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>
