@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ais-dev-uyov4v6wtfwriokfh3ssbt-977836054477.asia-southeast1.run.app/sitemap.xml
+Sitemap: https://www.sajidtaxconsultant.online/sitemap.xml

@@ -1,6 +1,6 @@
 import { ServiceItem } from '../types';
 
-const DEFAULT_TITLE = 'Sajid Tax Consultant — Tax, GST & Business Advisory Mumbai';
+const DEFAULT_TITLE = 'Sajid Tax Consultant - Best Tax Consultant in Mumbai & India';
 const DEFAULT_DESCRIPTION =
   'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Accurate statutory compliance.';
 const DEFAULT_IMAGE = '/src/assets/images/hero_financial_advisory_1792759874948.jpg';
