@@ -17,7 +17,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-lg overflow-hidden border border-slate-200 shadow-md group">
                 <img
-                  src="/src/assets/images/consultation_desk_1792759875356.jpg"
+                  src="/assets/images/consultation_desk_1792759875356.jpg"
                   alt="Sajid Tax Consultant Executive Office Desk Opera House Mumbai"
                   className="w-full h-[260px] sm:h-[360px] lg:h-[440px] object-cover transition-transform duration-300 group-hover:scale-102"
                   referrerPolicy="no-referrer"

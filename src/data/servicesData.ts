@@ -73,7 +73,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['tds-tcs-services', 'gst-returns', 'accounting-services'],
     seoTitle: 'ITR Filing in Mumbai | Sajid Tax Consultant',
     metaDescription: 'Professional Income Tax Return (ITR) filing in Opera House, Mumbai. Dual regime calculation & Form 26AS verification. Book an advisory session today.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['ITR filing Mumbai', 'Income tax consultant Opera House', 'Tax return filing Maharashtra', 'Form 16 ITR filing', 'Capital gains tax Mumbai'],
   },
   {
@@ -119,7 +119,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['gst-returns', 'udyam-registration', 'gumasta-shop-establishment'],
     seoTitle: 'GST Registration Mumbai | Sajid Tax Consultant',
     metaDescription: 'Expert GST registration assistance for businesses in Mumbai. Complete document verification, HSN classification & ARN tracking. Enquire at Opera House office.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['GST registration Mumbai', 'GST consultant South Mumbai', 'New GST number application', 'Voluntary GST registration', 'GST REG-01 filing'],
   },
   {
@@ -163,7 +163,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['gst-registration', 'accounting-services', 'tds-tcs-services'],
     seoTitle: 'GST Return Filing Services | Sajid Tax Consultant',
     metaDescription: 'Accurate GSTR-1, GSTR-3B & GSTR-9 return filing with strict GSTR-2B ITC matching in Mumbai. Avoid late fees and notices. Contact our tax desk.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['GST return filing Mumbai', 'GSTR-3B filing', 'GSTR-1 return', 'GSTR-2B ITC reconciliation', 'Annual GSTR-9 consultant'],
   },
   {
@@ -207,7 +207,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['income-tax-itr', 'accounting-services', 'roc-compliance'],
     seoTitle: 'TDS & TCS Return Filing Mumbai | Sajid Tax Consultant',
     metaDescription: 'Quarterly TDS returns 24Q, 26Q, Form 16/16A generation and TRACES compliance services in Mumbai. Accurate rate computation. Enquire today.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['TDS return filing Mumbai', 'Form 26Q non salary', 'Form 24Q salary TDS', 'Form 16 generation TRACES', 'TCS consultant Mumbai'],
   },
 
@@ -254,7 +254,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['roc-compliance', 'digital-signature-certificate', 'gst-registration'],
     seoTitle: 'Pvt Ltd Company Registration Mumbai | Sajid Tax',
     metaDescription: 'End-to-end MCA SPICe+ Private Limited company incorporation in Mumbai. CIN, MOA/AOA, PAN & TAN setup with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Private limited company registration Mumbai', 'MCA SPICe+ incorporation', 'Company registration Opera House', 'Startup incorporation consultant'],
   },
   {
@@ -298,7 +298,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['firm-registration', 'private-limited-company', 'roc-compliance'],
     seoTitle: 'LLP Registration in Mumbai | Sajid Tax Consultant',
     metaDescription: 'Incorporate your Limited Liability Partnership (LLP) in Mumbai. MCA FiLLiP filing, DPIN & agreement drafting with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['LLP registration Mumbai', 'Limited Liability Partnership consultant', 'LLP agreement drafting', 'MCA FiLLiP incorporation'],
   },
   {
@@ -342,7 +342,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['llp-registration', 'gumasta-shop-establishment', 'udyam-registration'],
     seoTitle: 'Partnership Firm Registration Mumbai | Sajid Tax',
     metaDescription: 'Professional Partnership Deed drafting & Maharashtra Registrar of Firms (ROF) registration in Mumbai. Complete stamp duty advisory. Call today.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Partnership firm registration Mumbai', 'ROF Maharashtra Form A', 'Partnership deed drafting', 'Firm PAN application Mumbai'],
   },
   {
@@ -387,7 +387,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['gumasta-shop-establishment', 'gst-registration', 'firm-registration'],
     seoTitle: 'Udyam MSME Registration Mumbai | Sajid Tax Consultant',
     metaDescription: 'Secure official MSME Udyam Registration in Mumbai. Access priority credit schemes and 50% discount on trademark fees with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Udyam registration Mumbai', 'MSME certificate consultant', 'Udyam registration online', 'MSME delayed payment protection'],
   },
   {
@@ -432,7 +432,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['udyam-registration', 'firm-registration', 'private-limited-company'],
     seoTitle: 'Gumasta License Mumbai | Shop & Establishment Service',
     metaDescription: 'Obtain MCGM / BMC Gumasta license and Maharashtra Shop & Establishment intimation for Mumbai commercial offices with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Gumasta license Mumbai', 'BMC Shop and establishment registration', 'Opera House Gumasta consultant', 'Aaple Sarkar Gumasta license'],
   },
 
@@ -478,7 +478,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['bookkeeping', 'roc-compliance', 'gst-returns'],
     seoTitle: 'Accounting Services in Mumbai | Sajid Tax Consultant',
     metaDescription: 'Professional accounting services, ledger maintenance, and annual finalization for Mumbai businesses. Tally and Zoho Books support. Book consultation.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['Accounting services Mumbai', 'Small business accountant Opera House', 'Tally Prime accounting service', 'Financial statement preparation'],
   },
   {
@@ -522,7 +522,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['accounting-services', 'gst-returns', 'tds-tcs-services'],
     seoTitle: 'Bookkeeping Services Mumbai | Sajid Tax Consultant',
     metaDescription: 'Reliable monthly bookkeeping and bank reconciliation services (BRS) for traders and professionals in Mumbai. Stay audit-ready with Sajid Tax.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['Bookkeeping services Mumbai', 'Bank reconciliation BRS', 'Vendor ledger maintenance', 'Small business bookkeeping South Mumbai'],
   },
   {
@@ -566,7 +566,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['private-limited-company', 'digital-signature-certificate', 'accounting-services'],
     seoTitle: 'ROC Compliance & Annual Filing | Sajid Tax Mumbai',
     metaDescription: 'MCA annual ROC filings AOC-4, MGT-7, and Director DIR-3 KYC for Private Limited firms in Mumbai. Prevent penalty fees with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['ROC compliance Mumbai', 'AOC-4 filing', 'MGT-7 annual return', 'DIR-3 KYC filing', 'Company annual compliance consultant'],
   },
 
@@ -613,7 +613,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['tds-tcs-services', 'accounting-services', 'roc-compliance'],
     seoTitle: 'EPFO & PF Services in Mumbai | Sajid Tax Consultant',
     metaDescription: 'EPFO establishment registration, monthly ECR challan generation & UAN linking services for employers in Mumbai. Compliant advisory at Opera House.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['PF registration Mumbai', 'EPFO consultant Opera House', 'Monthly ECR challan filing', 'Provident fund return Mumbai'],
   },
   {
@@ -657,7 +657,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['gumasta-shop-establishment', 'gst-registration', 'trademark-registration'],
     seoTitle: 'FSSAI Food License in Mumbai | Sajid Tax Consultant',
     metaDescription: 'Procure official FSSAI food safety registration or state license on FoSCoS in Mumbai for restaurants, cloud kitchens & traders. Apply with Sajid Tax.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['FSSAI registration Mumbai', 'Food license consultant Opera House', 'FoSCoS food license online', 'Swiggy Zomato FSSAI license'],
   },
   {
@@ -703,7 +703,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['private-limited-company', 'roc-compliance', 'income-tax-itr'],
     seoTitle: 'Class 3 DSC in Mumbai | Digital Signature Consultant',
     metaDescription: 'Procure Class 3 Digital Signature Certificate (DSC) USB tokens in Mumbai for MCA V3, Income Tax & e-Tenders. Rapid issuance at Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['Class 3 DSC Mumbai', 'Digital signature certificate Opera House', 'MCA DSC token', 'e-Tendering digital signature Mumbai'],
   },
   {
@@ -747,7 +747,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['private-limited-company', 'udyam-registration', 'import-export-code'],
     seoTitle: 'Trademark Registration Mumbai | Brand Protection',
     metaDescription: 'Brand name & logo trademark search and TM-A filing assistance in Mumbai. 50% MSME government fee discount guidance with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['Trademark registration Mumbai', 'TM search India', 'Brand logo registration', 'IP India Form TM-A', 'Trademark consultant Opera House'],
   },
   {
@@ -791,7 +791,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['gst-registration', 'private-limited-company', 'trademark-registration'],
     seoTitle: 'Import Export Code (IEC) in Mumbai | DGFT Consultant',
     metaDescription: 'Procure your 10-digit DGFT Import Export Code (IEC) in Mumbai for cross-border shipping and foreign inward payments. Apply with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['IEC registration Mumbai', 'DGFT Import Export Code', 'IEC certificate consultant', 'Customs export code Mumbai'],
   },
   {
@@ -837,7 +837,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['income-tax-itr', 'gst-returns', 'roc-compliance'],
     seoTitle: 'Auditing & Assurance Services Mumbai | Sajid Tax',
     metaDescription: 'Professional auditing & assurance coordination in Mumbai. Section 44AB tax audit, internal financial controls & GSTR-9 reconciliation.',
-    ogImage: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    ogImage: '/assets/images/consultation_desk_1792759875356.jpg',
     keywords: ['Tax audit Section 44AB Mumbai', 'Form 3CD filing', 'Statutory audit preparation Mumbai', 'Auditing assurance consultant'],
   },
   {
@@ -883,7 +883,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['income-tax-itr', 'tds-tcs-services', 'transfer-pricing'],
     seoTitle: 'NRI Taxation Services in Mumbai | Sajid Tax Consultant',
     metaDescription: 'Expert NRI tax advisory in Mumbai: Property sale TDS, Form 15CA 15CB certification, DTAA treaty relief, and repatriation guidance.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['NRI taxation Mumbai', 'Form 15CA 15CB certification', 'NRI property sale tax', 'DTAA relief consultant Mumbai', 'Section 197 lower TDS'],
   },
   {
@@ -927,7 +927,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['income-tax-itr', 'nri-taxation', 'indian-subsidiary-registration'],
     seoTitle: 'Transfer Pricing Advisory Mumbai | Sajid Tax Consultant',
     metaDescription: 'Cross-border transfer pricing advisory, arm\'s length studies, Form 3CEB certification & benchmarking in Mumbai. Compliant with Chapter X.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Transfer pricing Mumbai', 'Form 3CEB filing', 'Arm length price benchmarking', 'International transaction tax consultant'],
   },
   {
@@ -972,7 +972,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['private-limited-company', 'foreign-company-registration', 'transfer-pricing'],
     seoTitle: 'Indian Subsidiary Registration Mumbai | FDI Advisory',
     metaDescription: 'Setup Wholly Owned Indian Subsidiary (WOS) in Mumbai. MCA SPICe+, RBI FIRMS FC-GPR filing & apostille support with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Indian subsidiary registration Mumbai', 'FDI company incorporation', 'Foreign subsidiary setup India', 'RBI FC-GPR filing FIRMS'],
   },
   {
@@ -1017,7 +1017,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['indian-subsidiary-registration', 'private-limited-company', 'roc-compliance'],
     seoTitle: 'Foreign Company Branch & Liaison Office Mumbai | Sajid Tax',
     metaDescription: 'Setup Liaison Office (LO) and Branch Office (BO) in Mumbai under RBI & MCA FC-1 regulations. Comprehensive foreign advisory with Sajid Tax.',
-    ogImage: '/src/assets/images/mumbai_business_district_1792759875538.jpg',
+    ogImage: '/assets/images/mumbai_business_district_1792759875538.jpg',
     keywords: ['Foreign company registration Mumbai', 'Liaison office setup RBI', 'Branch office registration India', 'MCA Form FC-1'],
   },
   {
@@ -1061,7 +1061,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     relatedServiceIds: ['accounting-services', 'auditing-assurance', 'income-tax-itr'],
     seoTitle: 'Financial & Tax Investment Advisory Mumbai | Sajid Tax',
     metaDescription: 'Strategic financial advisory, tax optimization & CMA project reports for Mumbai businesses. Maximize capital efficiency with Sajid Tax Consultant.',
-    ogImage: '/src/assets/images/hero_financial_advisory_1792759874948.jpg',
+    ogImage: '/assets/images/hero_financial_advisory_1792759874948.jpg',
     keywords: ['Tax investment advisory Mumbai', 'Financial planning consultant', 'CMA data preparation', 'Capital gain planning Opera House'],
   },
 ];

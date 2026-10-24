@@ -3,7 +3,7 @@ import { ServiceItem } from '../types';
 const DEFAULT_TITLE = 'Sajid Tax Consultant - Best Tax Consultant in Mumbai & India';
 const DEFAULT_DESCRIPTION =
   'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Accurate statutory compliance.';
-const DEFAULT_IMAGE = '/src/assets/images/hero_financial_advisory_1792759874948.jpg';
+const DEFAULT_IMAGE = '/assets/images/hero_financial_advisory_1792759874948.jpg';
 const DEFAULT_KEYWORDS =
   'Sajid Tax Consultant, Tax Consultant Mumbai, Income Tax Return Filing Mumbai, ITR Filing Opera House, GST Registration Mumbai, GST Return Filing, Company Registration Mumbai, Private Limited Registration, LLP Registration, ROC Compliance Mumbai, Udyam Registration, Mumbai Gumasta License, Accounting Bookkeeping, TDS Filing, FSSAI Registration Mumbai, DSC Digital Signature, Trademark Registration, Import Export Code IEC';
 

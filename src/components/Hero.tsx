@@ -45,7 +45,7 @@ const HERO_SLIDES: HeroSlide[] = [
     bullets: '• Direct Tax • GST Returns • MCA Corporate Governance',
     description:
       'One stop destination to provide unified and agile statutory solutions to manage all your business complexities and regulatory compliances.',
-    imageSrc: '/src/assets/images/consultation_desk_1792759875356.jpg',
+    imageSrc: '/assets/images/consultation_desk_1792759875356.jpg',
     imageAlt: 'Sajid Tax Consultant Executive Consultation Desk Opera House Mumbai',
   },
 ];

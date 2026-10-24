@@ -31,7 +31,7 @@ export const WhyChooseUs: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-lg overflow-hidden border border-slate-200 shadow-md group">
               <img
-                src="/src/assets/images/mumbai_business_district_1792759875538.jpg"
+                src="/assets/images/mumbai_business_district_1792759875538.jpg"
                 alt="Mumbai business and financial commercial district Opera House"
                 className="w-full h-[260px] sm:h-[360px] lg:h-[460px] object-cover transition-transform duration-300 group-hover:scale-102"
                 referrerPolicy="no-referrer"
