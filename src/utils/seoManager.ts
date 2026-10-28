@@ -1,6 +1,7 @@
 import { ServiceItem } from '../types';
 
-const DEFAULT_TITLE = 'Sajid Tax Consultant - Best Tax Consultant in Mumbai & India';
+const DEFAULT_TITLE = 'Sajid Tax Consultant';
+const PREFERRED_SITE_URL = 'https://www.sajidtaxconsultant.online';
 const DEFAULT_DESCRIPTION =
   'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Accurate statutory compliance.';
 const DEFAULT_IMAGE = '/assets/images/hero_financial_advisory_1792759874948.jpg';
@@ -117,12 +118,10 @@ export function updatePageSEO(service: ServiceItem | null) {
     document.title = DEFAULT_TITLE;
     setMetaTag('description', DEFAULT_DESCRIPTION);
     setMetaTag('keywords', DEFAULT_KEYWORDS);
-    const homeUrl = `${origin}${window.location.pathname}`;
+    const homeUrl = 'https://www.sajidtaxconsultant.online/';
     setCanonicalUrl(homeUrl);
 
-    const defaultImageUrl = DEFAULT_IMAGE.startsWith('http')
-      ? DEFAULT_IMAGE
-      : `${origin}${DEFAULT_IMAGE}`;
+    const defaultImageUrl = `${PREFERRED_SITE_URL}${DEFAULT_IMAGE}`;
 
     // OpenGraph
     setMetaTag('og:title', DEFAULT_TITLE, true);

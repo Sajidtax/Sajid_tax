@@ -158,9 +158,9 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <CaLogo size="md" />
             <div className="min-w-0">
-              <div className="text-base sm:text-2xl font-bold tracking-tight text-[#023e60] truncate leading-tight">
+              <h1 className="text-base sm:text-2xl font-bold tracking-tight text-[#023e60] truncate leading-tight m-0 p-0 font-inherit">
                 Sajid Tax Consultant
-              </div>
+              </h1>
               <div className="text-[9px] sm:text-[10.5px] uppercase font-semibold tracking-wider text-[#63ac4c] truncate">
                 Tax · GST · Corporate Advisory · Mumbai
               </div>
