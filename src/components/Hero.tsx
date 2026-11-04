@@ -119,15 +119,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
               <span>Chartered Tax &amp; Corporate Advisory Desk</span>
             </div>
 
-            {/* Main Headline matching jainanuragassociates reference */}
-            <div className="space-y-0.5">
+            {/* Main Headline */}
+            <h1 className="space-y-0.5">
               <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#63ac4c] leading-[1.15] block tracking-tight">
                 {active.greenHeading}
               </span>
               <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#023e60] leading-[1.15] block tracking-tight">
                 {active.blueHeading}
               </span>
-            </div>
+            </h1>
 
             {/* Bullets (e.g. • Quality Services • Best Solutions • Best Results) */}
             {active.bullets && (

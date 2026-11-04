@@ -120,10 +120,10 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
-  // Update dynamic SEO & Open Graph meta tags whenever active service changes
+  // Update dynamic SEO & Open Graph meta tags whenever active service or active page changes
   useEffect(() => {
-    updatePageSEO(selectedService);
-  }, [selectedService]);
+    updatePageSEO(selectedService, activePage);
+  }, [selectedService, activePage]);
 
   const openServiceModal = (service: ServiceItem) => {
     setSelectedService(service);
