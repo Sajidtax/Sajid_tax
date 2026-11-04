@@ -39,8 +39,8 @@ export const OfficeHoursCard: React.FC<OfficeHoursCardProps> = ({ variant = 'det
             <span className="text-xs text-slate-600">Mon–Sat 11:00 AM – 7:00 PM IST</span>
           </div>
           <div className="flex items-center gap-1.5 shrink-0 text-xs font-semibold">
-            <span className={`w-2 h-2 rounded-full ${status.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
-            <span className={status.isOpen ? 'text-[#023e60]' : 'text-slate-600'}>
+            <span className={`w-2 h-2 rounded-full ${status.isOpen ? 'bg-[#15803d] animate-pulse' : 'bg-slate-400'}`} />
+            <span className={status.isOpen ? 'text-[#15803d]' : 'text-[#991b1b] font-bold'}>
               {status.statusText}
             </span>
           </div>
@@ -107,12 +107,12 @@ export const OfficeHoursCard: React.FC<OfficeHoursCardProps> = ({ variant = 'det
 
         {/* Live IST indicator */}
         <div className="flex items-center gap-2.5 bg-[#f0f7f2] border border-[#cadbe8] px-3.5 py-1.5 rounded shrink-0">
-          <span className={`w-2.5 h-2.5 rounded-full ${status.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
+          <span className={`w-2.5 h-2.5 rounded-full ${status.isOpen ? 'bg-[#15803d] animate-pulse' : 'bg-slate-400'}`} />
           <div className="text-left">
-            <div className={`text-xs font-bold leading-none ${status.isOpen ? 'text-[#023e60]' : 'text-slate-700'}`}>
+            <div className={`text-xs font-bold leading-none ${status.isOpen ? 'text-[#15803d]' : 'text-[#991b1b]'}`}>
               {status.statusText}
             </div>
-            <div className="text-[10.5px] text-slate-600 leading-none mt-1 font-semibold">
+            <div className="text-[10.5px] text-slate-700 leading-none mt-1 font-semibold">
               {status.formattedTimeIST}
             </div>
           </div>

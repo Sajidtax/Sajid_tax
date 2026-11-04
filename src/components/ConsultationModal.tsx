@@ -146,7 +146,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
+                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Send to WhatsApp (+91 77620 67143)</span>
@@ -162,7 +162,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-3.5" noValidate>
+            <form id="consultation-form" action="/api/enquiry" method="POST" onSubmit={handleSubmit} className="space-y-3.5" noValidate>
               
               <div className="space-y-1">
                 <label htmlFor="modal-fullname" className="block text-xs font-semibold text-slate-700">
@@ -254,7 +254,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] disabled:bg-slate-400 rounded transition-colors flex items-center justify-center gap-2 mt-2 shadow-xs cursor-pointer min-h-[44px]"
+                className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] disabled:bg-slate-400 rounded transition-colors flex items-center justify-center gap-2 mt-2 shadow-xs cursor-pointer min-h-[44px]"
               >
                 {isSubmitting ? 'Submitting...' : 'Submit Consultation Request'}
               </button>

@@ -249,13 +249,13 @@ export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
     : SERVICES_DATA;
 
   return (
-    <section id="services" className="py-14 sm:py-20 lg:py-24 bg-[#f8fafc] border-b border-slate-200 font-poppins">
+    <section id="services" aria-labelledby="services-heading" className="py-14 sm:py-20 lg:py-24 bg-[#f8fafc] border-b border-slate-200 font-poppins">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header matching image_635061a8.png exactly */}
         <div className="text-center max-w-4xl mx-auto mb-10 sm:mb-14">
-          <h2 className="text-2xl sm:text-4xl lg:text-[44px] font-bold tracking-tight leading-tight">
-            <span className="text-[#1b7a2b]">Committed</span>{' '}
+          <h2 id="services-heading" className="text-2xl sm:text-4xl lg:text-[44px] font-bold tracking-tight leading-tight">
+            <span className="text-[#15803d]">Committed</span>{' '}
             <span className="text-[#023e60]">to Excellence</span>
           </h2>
           <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 font-normal leading-relaxed mt-3 max-w-3xl mx-auto">

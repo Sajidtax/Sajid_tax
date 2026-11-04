@@ -85,7 +85,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
               <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <button
                   onClick={onOpenConsultation}
-                  className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
+                  className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
                 >
                   <span>Schedule Consultation</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -120,7 +120,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             </button>
             <a
               href="tel:+917762067143"
-              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow min-h-[44px] flex items-center justify-center"
+              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow min-h-[44px] flex items-center justify-center"
             >
               Call +91 77620 67143
             </a>

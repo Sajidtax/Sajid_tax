@@ -194,7 +194,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                       href={buildWhatsAppUrl(submittedData)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 shadow-xs min-h-[44px]"
+                      className="px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded flex items-center justify-center gap-2 shadow-xs min-h-[44px]"
                     >
                       <MessageSquare className="w-4 h-4" />
                       <span>Send via WhatsApp</span>
@@ -208,7 +208,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   </div>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4" noValidate>
+                <form id="inquiry-form" action="/api/enquiry" method="POST" onSubmit={handleSubmit} className="space-y-4" noValidate>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="contact-fullname" className="block text-xs font-semibold text-slate-700 mb-1.5">
@@ -311,7 +311,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer disabled:opacity-50 min-h-[44px]"
+                      className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer disabled:opacity-50 min-h-[44px]"
                     >
                       <Send className="w-3.5 h-3.5" />
                       <span>{isSubmitting ? 'Sending...' : 'Submit Enquiry'}</span>

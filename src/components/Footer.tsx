@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-gradient-to-b from-[#10255a] to-[#0c5369] text-[#cad5d9] font-poppins text-xs border-t border-[#023e60]">
+    <footer role="contentinfo" className="bg-gradient-to-b from-[#10255a] to-[#0c5369] text-[#cad5d9] font-poppins text-xs border-t border-[#023e60]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
           

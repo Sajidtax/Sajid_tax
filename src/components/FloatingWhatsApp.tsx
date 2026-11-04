@@ -60,8 +60,8 @@ export const FloatingWhatsApp: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           onMouseEnter={() => setShowTooltip(true)}
-          className="group relative flex items-center gap-2 px-4 py-3 bg-[#1b7a2b] hover:bg-[#146422] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer min-h-[48px]"
-          aria-label="Chat with Sajid Tax Consultant on WhatsApp"
+          className="group relative flex items-center gap-2 px-4 py-3 bg-[#15803d] hover:bg-[#166534] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer min-h-[48px]"
+          aria-label="Contact Sajid Tax Consultant on WhatsApp"
         >
           {/* Status Indicator Dot */}
           <span className="relative flex h-2.5 w-2.5">

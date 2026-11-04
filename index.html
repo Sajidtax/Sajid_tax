@@ -58,12 +58,21 @@
     content="Professional Income Tax Return (ITR) filing, GST registration, Private Limited Company registration, and ROC compliance in Opera House, Mumbai." />
   <meta name="twitter:image" content="https://www.sajidtaxconsultant.online/assets/images/hero_financial_advisory_1792759874948.webp" />
 
+  <!-- Critical CSS Inlined for Instant FCP & Speed Index -->
+  <style id="critical-css">
+    :root { --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    html { color-scheme: light; background: #ffffff; }
+    body { font-family: var(--font-poppins); background-color: #ffffff; color: #1e293b; margin: 0; padding: 0; text-rendering: optimizeLegibility; }
+    header[role="banner"] { background: #ffffff; position: sticky; top: 0; z-index: 40; }
+    main[role="main"] { display: flex; flex-direction: column; min-height: 100vh; }
+  </style>
+
   <!-- Fast Asset Preloading & Resource Hints for Instant FCP & LCP -->
   <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="image" type="image/webp" href="/assets/aistudio/hero_slide_1_clean.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="/assets/images/hero-tax-illustration.webp" type="image/webp" fetchpriority="high" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'" />
   <noscript>
@@ -103,7 +112,7 @@
           "alternateName": "Sajid Tax Consultant Mumbai",
           "description": "Leading tax consultancy and corporate advisory firm in Opera House, Mumbai. Expert Income Tax Return (ITR), GST Registration & Returns, Private Limited Company & LLP Incorporation, ROC Compliance, Bookkeeping, and Statutory Licenses.",
           "url": "https://www.sajidtaxconsultant.online/",
-          "image": "https://www.sajidtaxconsultant.online/assets/images/hero_financial_advisory_1792759874948.webp",
+          "image": "https://www.sajidtaxconsultant.online/assets/images/hero-tax-illustration.webp",
           "logo": "https://www.sajidtaxconsultant.online/favicon.svg",
           "telephone": "+91-77620-67143",
           "email": "workwithsajid@zohomail.in",
@@ -163,8 +172,10 @@
           ],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
-            "name": "Tax & Corporate Advisory Services",
+            "name": "Tax and Advisory Services",
             "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tax Consulting & GST Compliance" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corporate Advisory Services" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Income Tax Return (ITR) Filing" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GST Registration" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "GST Returns (GSTR-1, GSTR-3B)" } },

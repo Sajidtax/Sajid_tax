@@ -27,7 +27,7 @@ const HERO_SLIDES: HeroSlide[] = [
     bullets: '• Quality Services • Best Solutions • Best Results',
     description:
       'We are committed to delivering high-quality services to meet all your possible needs to empower your financial journey.',
-    imageSrc: '/assets/aistudio/hero_slide_1_clean.webp',
+    imageSrc: '/assets/images/hero-tax-illustration.webp',
     imageAlt: 'Partnering for Your Financial Success — Sajid Tax Consultant Mumbai',
     width: 860,
     height: 740,
@@ -101,7 +101,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       <button
         onClick={handlePrev}
         className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-r min-w-[48px] min-h-[48px]"
-        aria-label="Previous slide"
+        aria-label="Previous Slide"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
@@ -109,7 +109,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       <button
         onClick={handleNext}
         className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-l min-w-[48px] min-h-[48px]"
-        aria-label="Next slide"
+        aria-label="Next Slide"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
@@ -118,18 +118,18 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 min-h-[460px] sm:min-h-[520px] lg:min-h-[580px] flex items-center">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center w-full">
           
-          {/* Left Column: Typography, Bullets, Subtitle & Action Buttons */}
-          <div className="lg:col-span-6 space-y-4 sm:space-y-5 z-10 transition-all duration-500">
+          {/* Left Column: Typography, Bullets, Subtitle & Action Buttons (Instant paint, no animation delay) */}
+          <div className="lg:col-span-6 space-y-4 sm:space-y-5 z-10">
             
-            {/* Tag / Eyebrow */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#eef5fa] border border-[#cadbe8] text-[11px] sm:text-xs font-semibold text-[#023e60]">
-              <span className="w-2 h-2 rounded-full bg-[#1b7a2b]" />
+            {/* Tag / Eyebrow with WCAG 2.1 AA compliant #111827 text */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#f1f5f9] border border-slate-300 text-[11px] sm:text-xs font-bold text-[#111827]">
+              <span className="w-2 h-2 rounded-full bg-[#15803d]" />
               <span>Chartered Tax &amp; Corporate Advisory Desk</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="space-y-0.5">
-              <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#1b7a2b] leading-[1.15] block tracking-tight">
+              <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#15803d] leading-[1.15] block tracking-tight">
                 {active.greenHeading}
               </span>
               <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#023e60] leading-[1.15] block tracking-tight">
@@ -139,24 +139,24 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
 
             {/* Bullets (e.g. • Quality Services • Best Solutions • Best Results) */}
             {active.bullets && (
-              <div className="text-xs sm:text-sm font-semibold text-slate-800 tracking-wide flex flex-wrap gap-x-2 gap-y-1">
+              <div className="text-xs sm:text-sm font-semibold text-[#111827] tracking-wide flex flex-wrap gap-x-2 gap-y-1">
                 {active.bullets}
               </div>
             )}
 
             {/* Optional Subtitle */}
             {active.subTitle && (
-              <div className="text-sm sm:text-base font-semibold text-[#023e60]">
+              <div className="text-sm sm:text-base font-bold text-[#023e60]">
                 {active.subTitle}
               </div>
             )}
 
-            {/* Description */}
-            <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 font-normal leading-relaxed max-w-xl">
+            {/* Description with high contrast #1f2937 text */}
+            <p className="text-xs sm:text-sm lg:text-[15px] text-[#1f2937] font-normal leading-relaxed max-w-xl">
               {active.description}
             </p>
 
-            {/* CTAs with WCAG 2.1 AA 4.5:1 Compliant Contrast */}
+            {/* CTAs with WCAG 2.1 AA 4.5:1 Compliant Contrast (White on #15803d dark green) */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
                 onClick={onOpenConsultation}
@@ -168,42 +168,44 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
 
               <a
                 href="#services"
-                className="px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow-sm flex items-center gap-1.5 min-h-[44px]"
+                className="px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center gap-1.5 min-h-[44px]"
               >
                 <span>Our Services</span>
               </a>
 
               <a
                 href="tel:+917762067143"
-                className="px-4 py-3 text-xs sm:text-sm font-medium text-slate-700 hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center gap-2 min-h-[44px]"
+                className="px-4 py-3 text-xs sm:text-sm font-semibold text-[#111827] hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center gap-2 min-h-[44px]"
               >
-                <PhoneCall className="w-3.5 h-3.5 text-[#1b7a2b]" />
+                <PhoneCall className="w-3.5 h-3.5 text-[#15803d]" />
                 <span>+91 77620 67143</span>
               </a>
             </div>
 
-            {/* Office Status strip */}
-            <div className="pt-2 flex flex-wrap items-center gap-3 text-xs text-slate-500">
-              <div className="flex items-center gap-1.5 font-medium text-slate-700">
+            {/* Office Status strip with high contrast Closed/Open pill */}
+            <div className="pt-2 flex flex-wrap items-center gap-3 text-xs text-[#1f2937]">
+              <div className="flex items-center gap-1.5 font-medium text-[#111827]">
                 <Clock className="w-3.5 h-3.5 text-[#023e60] shrink-0" />
                 <span>Mon–Sat: 11:00 AM – 7:00 PM IST</span>
               </div>
-              <span className="text-slate-300">·</span>
-              <div className="flex items-center gap-1.5 font-semibold text-[#023e60]">
-                <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#1b7a2b] animate-pulse' : 'bg-slate-400'}`} />
-                <span>{istStatus.statusText}</span>
+              <span className="text-slate-400">·</span>
+              <div className="flex items-center gap-1.5 font-bold">
+                <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#15803d] animate-pulse' : 'bg-red-600'}`} />
+                <span className={istStatus.isOpen ? 'text-[#15803d]' : 'text-[#991b1b]'}>
+                  {istStatus.statusText}
+                </span>
               </div>
             </div>
 
           </div>
 
-          {/* Right Column: Clean Illustration / Graphic with WebP, explicit width/height, fetchpriority */}
+          {/* Right Column: Clean Illustration / Graphic with WebP, explicit width/height, fetchpriority (No animation delay) */}
           <div className="lg:col-span-6 relative flex items-center justify-center">
-            <div className="relative w-full max-w-lg lg:max-w-none h-[280px] sm:h-[380px] lg:h-[460px] flex items-center justify-center transition-all duration-700">
+            <div className="relative w-full max-w-lg lg:max-w-none h-[280px] sm:h-[380px] lg:h-[460px] flex items-center justify-center">
               {HERO_SLIDES.map((slide, idx) => (
                 <div
                   key={slide.id}
-                  className={`absolute inset-0 flex items-center justify-center transition-opacity duration-700 ease-in-out ${
+                  className={`absolute inset-0 flex items-center justify-center ${
                     idx === currentSlide ? 'opacity-100 z-10 pointer-events-auto' : 'opacity-0 z-0 pointer-events-none'
                   }`}
                 >

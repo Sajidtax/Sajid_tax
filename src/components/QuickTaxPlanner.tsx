@@ -182,7 +182,7 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
+                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Discuss On WhatsApp</span>

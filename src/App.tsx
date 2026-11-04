@@ -104,6 +104,9 @@ export default function App() {
       } else if (hash === '#/contact' || hash === '#contact') {
         setActivePage('contact');
         window.scrollTo({ top: 0, behavior: 'instant' });
+      } else if (hash === '#/enquire' || hash === '#enquire') {
+        setActivePage('home');
+        setConsultationOpen(true);
       } else if (hash === '#services' || hash === '#/services') {
         setActivePage('home');
         setTimeout(() => {
@@ -180,8 +183,8 @@ export default function App() {
         onSelectService={openServiceModal}
       />
 
-      {/* Main Content Router */}
-      <main className="flex-1">
+      {/* Main Content Router with semantic landmark */}
+      <main role="main" className="flex-1">
         {/* View 1: Clean, Focused Homepage (AboutFirm removed as requested, replaced by drill-down portal) */}
         {activePage === 'home' && (
           <>
@@ -229,7 +232,7 @@ export default function App() {
                   <button
                     type="button"
                     onClick={() => handleOpenConsultation('Executive Tax Advisory')}
-                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#1b7a2b] hover:bg-[#146422] text-white font-bold text-xs uppercase tracking-wider shadow-sm cursor-pointer min-h-[44px]"
+                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#15803d] hover:bg-[#166534] text-white font-bold text-xs uppercase tracking-wider shadow-sm cursor-pointer min-h-[44px]"
                   >
                     Schedule Direct Consultation
                   </button>
