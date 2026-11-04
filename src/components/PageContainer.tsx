@@ -74,7 +74,7 @@ export const PageContainer: React.FC<PageContainerProps> = ({
           {/* Page Heading Lockup */}
           <div className="max-w-3xl">
             {badge && (
-              <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#63ac4c] bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200/60 mb-2">
+              <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[#1b7a2b] bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200/60 mb-2">
                 {badge}
               </span>
             )}

@@ -274,7 +274,7 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
                 onClose();
                 onConsult(service.title);
               }}
-              className="w-full sm:w-auto px-5 py-2 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded transition-colors shadow-xs cursor-pointer"
+              className="w-full sm:w-auto px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-colors shadow-xs cursor-pointer min-h-[44px] flex items-center justify-center"
             >
               Consult On This Service
             </button>

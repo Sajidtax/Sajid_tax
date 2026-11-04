@@ -158,10 +158,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <CaLogo size="md" />
             <div className="min-w-0">
-              <h1 className="text-base sm:text-2xl font-bold tracking-tight text-[#023e60] truncate leading-tight m-0 p-0 font-inherit">
+              <span className="block text-base sm:text-2xl font-bold tracking-tight text-[#023e60] truncate leading-tight m-0 p-0 font-inherit">
                 Sajid Tax Consultant
-              </h1>
-              <div className="text-[9px] sm:text-[10.5px] uppercase font-semibold tracking-wider text-[#63ac4c] truncate">
+              </span>
+              <div className="text-[9px] sm:text-[10.5px] uppercase font-semibold tracking-wider text-[#1b7a2b] truncate">
                 Tax · GST · Corporate Advisory · Mumbai
               </div>
             </div>
@@ -320,26 +320,27 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="hidden lg:flex items-center gap-3 shrink-0">
             <button
               onClick={() => handleLinkClick('#contact')}
-              className="px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm cursor-pointer whitespace-nowrap flex items-center gap-2"
+              className="px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm cursor-pointer whitespace-nowrap flex items-center gap-2 min-h-[44px]"
             >
-              <Headphones className="w-4 h-4 text-[#63ac4c]" />
+              <Headphones className="w-4 h-4 text-[#1b7a2b]" />
               <span>Contact Us</span>
             </button>
           </div>
 
-          {/* Mobile Right Actions */}
+          {/* Mobile Right Actions with accessible touch targets & high contrast */}
           <div className="flex items-center gap-2 lg:hidden shrink-0">
             <button
               onClick={onOpenConsultation}
-              className="px-2.5 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded shadow-xs"
+              className="px-3.5 py-2 min-h-[44px] text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded shadow-xs flex items-center justify-center cursor-pointer"
             >
               Enquire
             </button>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 text-slate-700 hover:text-[#023e60] rounded"
+              className="p-2.5 min-w-[48px] min-h-[48px] text-slate-700 hover:text-[#023e60] rounded flex items-center justify-center cursor-pointer"
               aria-label="Toggle navigation menu"
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>

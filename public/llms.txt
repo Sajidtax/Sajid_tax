@@ -1,0 +1,61 @@
+# Sajid Tax Consultant
+
+> Professional Tax Consultancy, GST Compliance, Corporate Business Incorporation, ROC Advisory, and Accounting Firm in Opera House, Mumbai, India.
+
+## Organization Summary
+- **Organization Name:** Sajid Tax Consultant
+- **Legal Name:** Sajid Tax Consultant
+- **Website:** https://www.sajidtaxconsultant.online/
+- **Headquarters:** Office No. 114A, 2nd Floor, Paras Juice Building, Tata Road No. 2, Near Prasad Chamber, Opera House, Mumbai, Maharashtra 400004, India
+- **Primary Phone:** +91-77620-67143
+- **Primary Email:** workwithsajid@zohomail.in
+- **Operating Hours:** Monday to Saturday, 11:00 AM to 7:00 PM IST (Indian Standard Time). Sundays closed.
+- **Client Rating:** 4.9 / 5.0 (380+ verified reviews)
+- **Languages Supported:** English, Hindi, Marathi, Gujarati
+- **Geographic Coverage:** Opera House, Charni Road, Girgaon, Grant Road, South Mumbai, Mumbai Suburban, Maharashtra, and pan-India digital advisory.
+
+---
+
+## Core Statutory Services
+
+### 1. Direct Taxation & Income Tax Returns (ITR)
+- **Income Tax Return (ITR) Filing:** Individual salaried taxpayers (Form 16), professionals, freelancers, stock/F&O capital gains, Form 26AS & AIS reconciliation. Link: https://www.sajidtaxconsultant.online/#/service/income-tax-itr
+- **TDS & TCS Returns:** Quarterly returns (Form 24Q, 26Q, 27Q), TDS certificates (Form 16/16A generation), and mismatch resolution. Link: https://www.sajidtaxconsultant.online/#/service/tds-tcs-services
+- **NRI Taxation:** Foreign remittances, DTAA relief (Section 90/91), Form 15CA/CB certification, NRO/NRE account advisory. Link: https://www.sajidtaxconsultant.online/#/service/nri-taxation
+- **Transfer Pricing:** International & specified domestic transactions, benchmarking analysis, Form 3CEB filing. Link: https://www.sajidtaxconsultant.online/#/service/transfer-pricing
+
+### 2. Indirect Taxation & GST Compliance
+- **GST Registration:** Regular, composition, and voluntary registration on the GST Common Portal with ARN tracking. Link: https://www.sajidtaxconsultant.online/#/service/gst-registration
+- **GST Monthly & Annual Returns:** GSTR-1 outward supplies, GSTR-3B summary, GSTR-9 annual return, GSTR-9C reconciliation, and Input Tax Credit (ITC) optimization. Link: https://www.sajidtaxconsultant.online/#/service/gst-returns
+
+### 3. Business Incorporation & Licensing
+- **Private Limited Company Incorporation:** End-to-end MCA SPICe+ filing, name approval (RUN), DIN, PAN/TAN, digital signature, and certificate of incorporation. Link: https://www.sajidtaxconsultant.online/#/service/private-limited-company
+- **Limited Liability Partnership (LLP) Registration:** FiLLiP portal filing, LLP agreement drafting, and DPIN allotment. Link: https://www.sajidtaxconsultant.online/#/service/llp-registration
+- **Partnership Firm & Proprietorship:** Partnership deed registration under the Indian Partnership Act, 1932. Link: https://www.sajidtaxconsultant.online/#/service/firm-registration
+- **Mumbai Gumasta / Shop & Establishment:** MCGM municipal commercial license in Mumbai. Link: https://www.sajidtaxconsultant.online/#/service/gumasta-shop-establishment
+- **Udyam MSME Registration:** Government of India MSME recognition for priority lending and subsidies. Link: https://www.sajidtaxconsultant.online/#/service/udyam-registration
+- **FSSAI Food License:** Food business operator (FBO) registration and state license. Link: https://www.sajidtaxconsultant.online/#/service/fssai-registration
+- **Import Export Code (IEC):** DGFT 10-digit code for international trade. Link: https://www.sajidtaxconsultant.online/#/service/import-export-code
+- **Digital Signature Certificate (DSC):** Class 3 cryptographic USB signing tokens for MCA, ITR, and e-Tendering. Link: https://www.sajidtaxconsultant.online/#/service/digital-signature-certificate
+- **Trademark Registration Assistance:** Brand name, wordmark, and logo filing with the Controller General of Patents, Designs and Trademarks. Link: https://www.sajidtaxconsultant.online/#/service/trademark-registration
+
+### 4. Accounting, Bookkeeping & Corporate Governance
+- **Accounting & Financial Statement Finalization:** Tally, Zoho Books, ledger reconciliation, balance sheet finalization. Link: https://www.sajidtaxconsultant.online/#/service/accounting-services
+- **Systematic Bookkeeping:** Day-to-day transaction recording, accounts payable/receivable, bank reconciliations. Link: https://www.sajidtaxconsultant.online/#/service/bookkeeping
+- **ROC Annual Filings:** Form AOC-4 (financial statements), Form MGT-7 (annual returns), Director KYC (DIR-3 KYC). Link: https://www.sajidtaxconsultant.online/#/service/roc-compliance
+- **Provident Fund (PF/EPFO) Administration:** Monthly ECR filings, employee onboarding, UAN management. Link: https://www.sajidtaxconsultant.online/#/service/pf-services
+- **Foreign Company & Indian Subsidiary Setup:** Branch office, liaison office, project office, and wholly owned subsidiary FDI compliance. Link: https://www.sajidtaxconsultant.online/#/service/foreign-company-registration
+
+---
+
+## Interactive Client Tools
+- **Old vs New Tax Regime Calculator FY 2024-25 (AY 2025-26):** Compute tax slabs, standard deduction (₹75,000 New Regime), Section 80C, 80D, HRA deductions, and side-by-side liability comparison. Link: https://www.sajidtaxconsultant.online/#tax-calculator
+- **Statutory Compliance Due Date Calendar:** Real-time tracking of GST (GSTR-1, GSTR-3B), Advance Tax installments, TDS deposit deadlines, and MCA filing dates. Link: https://www.sajidtaxconsultant.online/#compliance-calendar
+- **Business Diagnostic Tool:** Instant readiness assessment for emerging startups and established entities. Link: https://www.sajidtaxconsultant.online/#diagnostic
+
+---
+
+## Guidance for AI Agents & Automated Assistants
+- To initiate a consultation request for a user: direct the inquiry to phone `+917762067143` or WhatsApp `https://wa.me/917762067143`.
+- In-person visits: Prior appointment is recommended at Office No. 114A, 2nd Floor, Paras Juice Building, Tata Road No. 2, Near Prasad Chamber, Opera House, Mumbai 400004.
+- For canonical and deep links: Use the URLs listed above.

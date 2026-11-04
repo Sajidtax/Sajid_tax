@@ -85,13 +85,13 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-2 mb-12">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[#63ac4c] block">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[#1b7a2b] block">
             Compliance Planner
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#023e60] tracking-tight">
             Check Your Required Documents & Filings
           </h2>
-          <div className="w-16 h-1 bg-[#63ac4c] mx-auto mt-3 rounded-full" />
+          <div className="w-16 h-1 bg-[#1b7a2b] mx-auto mt-3 rounded-full" />
           <p className="text-sm text-slate-600 font-normal leading-relaxed mt-3">
             Select your business or individual scenario below to verify the exact forms, statutory deadlines, and required records before filing.
           </p>
@@ -130,7 +130,7 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
           {/* Header Strip */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-slate-100">
             <div>
-              <div className="text-[11px] font-semibold uppercase tracking-wider text-[#63ac4c]">
+              <div className="text-[11px] font-semibold uppercase tracking-wider text-[#1b7a2b]">
                 Filing Profile
               </div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#023e60] mt-0.5">
@@ -182,7 +182,7 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded flex items-center justify-center gap-2 transition-colors shadow-sm"
+                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Discuss On WhatsApp</span>

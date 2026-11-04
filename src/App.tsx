@@ -216,7 +216,7 @@ export default function App() {
             {/* Section 6: Consultation Fast Action Banner */}
             <div className="bg-[#023e60] text-white py-12 px-4 sm:px-6 lg:px-8 text-center font-poppins">
               <div className="max-w-4xl mx-auto space-y-4">
-                <span className="text-xs uppercase font-bold tracking-widest text-[#63ac4c]">
+                <span className="text-xs uppercase font-bold tracking-widest text-emerald-400">
                   Direct Senior Counsel • Opera House, Mumbai
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-extrabold">
@@ -229,14 +229,14 @@ export default function App() {
                   <button
                     type="button"
                     onClick={() => handleOpenConsultation('Executive Tax Advisory')}
-                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#63ac4c] hover:bg-[#52993d] text-white font-bold text-xs uppercase tracking-wider shadow-sm cursor-pointer"
+                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#1b7a2b] hover:bg-[#146422] text-white font-bold text-xs uppercase tracking-wider shadow-sm cursor-pointer min-h-[44px]"
                   >
                     Schedule Direct Consultation
                   </button>
                   <button
                     type="button"
                     onClick={() => navigateTo('#/contact')}
-                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs uppercase tracking-wider border border-white/20 cursor-pointer"
+                    className="btn-luxury-tab px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs uppercase tracking-wider border border-white/20 cursor-pointer min-h-[44px]"
                   >
                     View Office Location &amp; Hours
                   </button>

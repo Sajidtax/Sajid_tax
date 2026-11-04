@@ -11,7 +11,7 @@ export type ActivePage =
   | 'contact';
 
 export const PREFERRED_SITE_URL = 'https://www.sajidtaxconsultant.online';
-export const DEFAULT_IMAGE = '/assets/images/hero_financial_advisory_1792759874948.jpg';
+export const DEFAULT_IMAGE = '/assets/images/hero_financial_advisory_1792759874948.webp';
 
 export interface PageSEOConfig {
   title: string;

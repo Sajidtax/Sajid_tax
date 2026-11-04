@@ -143,7 +143,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
         <button
           type="button"
           onClick={onOpenConsultation}
-          className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#63ac4c] hover:bg-[#52993d] text-white font-bold text-xs uppercase tracking-wider shadow-sm shrink-0 whitespace-nowrap cursor-pointer"
+          className="btn-luxury-tab px-6 py-3 rounded-xl bg-[#1b7a2b] hover:bg-[#146422] text-white font-bold text-xs uppercase tracking-wider shadow-sm shrink-0 whitespace-nowrap cursor-pointer min-h-[44px]"
         >
           Schedule Consultation
         </button>

@@ -15,6 +15,8 @@ interface HeroSlide {
   description: string;
   imageSrc: string;
   imageAlt: string;
+  width: number;
+  height: number;
 }
 
 const HERO_SLIDES: HeroSlide[] = [
@@ -25,8 +27,10 @@ const HERO_SLIDES: HeroSlide[] = [
     bullets: '• Quality Services • Best Solutions • Best Results',
     description:
       'We are committed to delivering high-quality services to meet all your possible needs to empower your financial journey.',
-    imageSrc: '/assets/aistudio/hero_slide_1_clean.png',
+    imageSrc: '/assets/aistudio/hero_slide_1_clean.webp',
     imageAlt: 'Partnering for Your Financial Success — Sajid Tax Consultant Mumbai',
+    width: 860,
+    height: 740,
   },
   {
     id: 'slide-2',
@@ -35,8 +39,10 @@ const HERO_SLIDES: HeroSlide[] = [
     subTitle: 'Unparalleled Excellence in Tax and Advisory Services',
     description:
       'Comprehensive tax consulting, GST compliance, business registration, and corporate advisory services designed to simplify regulatory requirements.',
-    imageSrc: '/assets/aistudio/hero_slide_2_clean.png',
+    imageSrc: '/assets/aistudio/hero_slide_2_clean.webp',
     imageAlt: 'Leading Tax and Advisory Firm in Mumbai — Sajid Tax Consultant',
+    width: 970,
+    height: 700,
   },
   {
     id: 'slide-3',
@@ -45,8 +51,10 @@ const HERO_SLIDES: HeroSlide[] = [
     bullets: '• Direct Tax • GST Returns • MCA Corporate Governance',
     description:
       'One stop destination to provide unified and agile statutory solutions to manage all your business complexities and regulatory compliances.',
-    imageSrc: '/assets/images/consultation_desk_1792759875356.jpg',
+    imageSrc: '/assets/images/consultation_desk_1792759875356.webp',
     imageAlt: 'Sajid Tax Consultant Executive Consultation Desk Opera House Mumbai',
+    width: 1200,
+    height: 896,
   },
 ];
 
@@ -89,21 +97,21 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      {/* Edge Slide Navigation Arrows (Matches reference screenshots) */}
+      {/* Edge Slide Navigation Arrows with accessible 48px touch targets */}
       <button
         onClick={handlePrev}
-        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-8 h-12 sm:w-10 sm:h-14 bg-black/15 hover:bg-black/35 text-white flex items-center justify-center transition-colors cursor-pointer rounded-r"
-        aria-label="Previous Slide"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-r min-w-[48px] min-h-[48px]"
+        aria-label="Previous slide"
       >
-        <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+        <ChevronLeft className="w-6 h-6" />
       </button>
 
       <button
         onClick={handleNext}
-        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-8 h-12 sm:w-10 sm:h-14 bg-black/15 hover:bg-black/35 text-white flex items-center justify-center transition-colors cursor-pointer rounded-l"
-        aria-label="Next Slide"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-l min-w-[48px] min-h-[48px]"
+        aria-label="Next slide"
       >
-        <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+        <ChevronRight className="w-6 h-6" />
       </button>
 
       {/* Main Slide Content */}
@@ -115,13 +123,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
             
             {/* Tag / Eyebrow */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#eef5fa] border border-[#cadbe8] text-[11px] sm:text-xs font-semibold text-[#023e60]">
-              <span className="w-2 h-2 rounded-full bg-[#63ac4c]" />
+              <span className="w-2 h-2 rounded-full bg-[#1b7a2b]" />
               <span>Chartered Tax &amp; Corporate Advisory Desk</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="space-y-0.5">
-              <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#63ac4c] leading-[1.15] block tracking-tight">
+              <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#1b7a2b] leading-[1.15] block tracking-tight">
                 {active.greenHeading}
               </span>
               <span className="text-3xl sm:text-5xl lg:text-[54px] font-bold text-[#023e60] leading-[1.15] block tracking-tight">
@@ -148,11 +156,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
               {active.description}
             </p>
 
-            {/* CTAs matching reference: Get Started button */}
+            {/* CTAs with WCAG 2.1 AA 4.5:1 Compliant Contrast */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
                 onClick={onOpenConsultation}
-                className="px-6 sm:px-7 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer"
+                className="px-6 sm:px-7 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
               >
                 <span>Get Started</span>
                 <ArrowRight className="w-4 h-4" />
@@ -160,16 +168,16 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
 
               <a
                 href="#services"
-                className="px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded transition-all shadow-sm flex items-center gap-1.5"
+                className="px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow-sm flex items-center gap-1.5 min-h-[44px]"
               >
                 <span>Our Services</span>
               </a>
 
               <a
                 href="tel:+917762067143"
-                className="px-4 py-3 text-xs sm:text-sm font-medium text-slate-700 hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center gap-2"
+                className="px-4 py-3 text-xs sm:text-sm font-medium text-slate-700 hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center gap-2 min-h-[44px]"
               >
-                <PhoneCall className="w-3.5 h-3.5 text-[#63ac4c]" />
+                <PhoneCall className="w-3.5 h-3.5 text-[#1b7a2b]" />
                 <span>+91 77620 67143</span>
               </a>
             </div>
@@ -182,14 +190,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
               </div>
               <span className="text-slate-300">·</span>
               <div className="flex items-center gap-1.5 font-semibold text-[#023e60]">
-                <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
+                <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#1b7a2b] animate-pulse' : 'bg-slate-400'}`} />
                 <span>{istStatus.statusText}</span>
               </div>
             </div>
 
           </div>
 
-          {/* Right Column: Clean Illustration / Graphic that changes every 3s */}
+          {/* Right Column: Clean Illustration / Graphic with WebP, explicit width/height, fetchpriority */}
           <div className="lg:col-span-6 relative flex items-center justify-center">
             <div className="relative w-full max-w-lg lg:max-w-none h-[280px] sm:h-[380px] lg:h-[460px] flex items-center justify-center transition-all duration-700">
               {HERO_SLIDES.map((slide, idx) => (
@@ -202,8 +210,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
                   <img
                     src={slide.imageSrc}
                     alt={slide.imageAlt}
+                    width={slide.width}
+                    height={slide.height}
                     className="w-full h-full object-contain max-h-[440px] drop-shadow-sm"
                     loading={idx === 0 ? 'eager' : 'lazy'}
+                    fetchPriority={idx === 0 ? 'high' : 'auto'}
+                    decoding={idx === 0 ? 'sync' : 'async'}
                   />
                 </div>
               ))}
@@ -213,19 +225,25 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
         </div>
       </div>
 
-      {/* Bottom Indicator Dots (Matching reference screenshot bottom bar) */}
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
+      {/* Bottom Indicator Dots with accessible 48px touch targets */}
+      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-1" role="tablist" aria-label="Hero carousel pagination">
         {HERO_SLIDES.map((slide, idx) => (
           <button
             key={slide.id}
             onClick={() => goToSlide(idx)}
-            className={`transition-all duration-300 rounded-full cursor-pointer ${
-              idx === currentSlide
-                ? 'w-7 h-2.5 bg-[#023e60]'
-                : 'w-2.5 h-2.5 bg-slate-300 hover:bg-slate-400'
-            }`}
-            aria-label={`Go to slide ${idx + 1}`}
-          />
+            className="p-3 cursor-pointer flex items-center justify-center min-w-[44px] min-h-[44px]"
+            aria-label={`Slide ${idx + 1}: ${slide.blueHeading}`}
+            aria-selected={idx === currentSlide}
+            role="tab"
+          >
+            <span
+              className={`block transition-all duration-300 rounded-full ${
+                idx === currentSlide
+                  ? 'w-7 h-2.5 bg-[#023e60]'
+                  : 'w-2.5 h-2.5 bg-slate-300 hover:bg-slate-400'
+              }`}
+            />
+          </button>
         ))}
       </div>
     </section>

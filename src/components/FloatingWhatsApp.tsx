@@ -44,34 +44,34 @@ export const FloatingWhatsApp: React.FC = () => {
 
       {/* Main Buttons Pill / Floating Action */}
       <div className="flex items-center gap-2">
-        {/* Telephone Call Button */}
+        {/* Telephone Call Button with accessible 48px touch target */}
         <a
           href="tel:+917762067143"
-          className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-white text-slate-700 hover:text-[#023e60] border border-slate-200 shadow-md flex items-center justify-center transition-transform hover:scale-105"
+          className="w-12 h-12 rounded-full bg-white text-slate-700 hover:text-[#023e60] border border-slate-200 shadow-md flex items-center justify-center transition-transform hover:scale-105"
           title="Call +91 77620 67143"
-          aria-label="Direct Call"
+          aria-label="Direct Phone Call to Sajid Tax Consultant at +91 77620 67143"
         >
-          <Phone className="w-4 h-4 text-[#023e60]" />
+          <Phone className="w-5 h-5 text-[#023e60]" />
         </a>
 
-        {/* WhatsApp Button matching signature green */}
+        {/* WhatsApp Button matching accessible contrast green with 48px target */}
         <a
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
           onMouseEnter={() => setShowTooltip(true)}
-          className="group relative flex items-center gap-2 px-3.5 sm:px-4 py-2.5 sm:py-3 bg-[#63ac4c] hover:bg-[#52993d] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer"
-          aria-label="Chat on WhatsApp"
+          className="group relative flex items-center gap-2 px-4 py-3 bg-[#1b7a2b] hover:bg-[#146422] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer min-h-[48px]"
+          aria-label="Chat with Sajid Tax Consultant on WhatsApp"
         >
           {/* Status Indicator Dot */}
-          <span className="relative flex h-2 w-2">
+          <span className="relative flex h-2.5 w-2.5">
             <span
               className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${
                 istStatus.isOpen ? 'bg-white' : 'bg-slate-300'
               }`}
             />
             <span
-              className={`relative inline-flex rounded-full h-2 w-2 ${
+              className={`relative inline-flex rounded-full h-2.5 w-2.5 ${
                 istStatus.isOpen ? 'bg-white' : 'bg-slate-200'
               }`}
             />

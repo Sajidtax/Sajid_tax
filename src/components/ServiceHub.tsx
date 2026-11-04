@@ -255,7 +255,7 @@ export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
         {/* Header matching image_635061a8.png exactly */}
         <div className="text-center max-w-4xl mx-auto mb-10 sm:mb-14">
           <h2 className="text-2xl sm:text-4xl lg:text-[44px] font-bold tracking-tight leading-tight">
-            <span className="text-[#63ac4c]">Committed</span>{' '}
+            <span className="text-[#1b7a2b]">Committed</span>{' '}
             <span className="text-[#023e60]">to Excellence</span>
           </h2>
           <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 font-normal leading-relaxed mt-3 max-w-3xl mx-auto">

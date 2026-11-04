@@ -17,17 +17,20 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-lg overflow-hidden border border-slate-200 shadow-md group">
                 <img
-                  src="/assets/images/consultation_desk_1792759875356.jpg"
+                  src="/assets/images/consultation_desk_1792759875356.webp"
                   alt="Sajid Tax Consultant Executive Office Desk Opera House Mumbai"
+                  width={1200}
+                  height={896}
                   className="w-full h-[260px] sm:h-[360px] lg:h-[440px] object-cover transition-transform duration-300 group-hover:scale-102"
                   referrerPolicy="no-referrer"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#023e60]/85 via-transparent to-transparent" />
                 
                 <div className="absolute bottom-3 left-3 right-3 sm:bottom-5 sm:left-5 sm:right-5 p-3 sm:p-4 rounded bg-white/95 backdrop-blur-xs border border-slate-200 shadow">
                   <div className="flex items-center gap-2 text-[#023e60] font-bold text-xs uppercase tracking-wider">
-                    <Building className="w-4 h-4 text-[#63ac4c]" />
+                    <Building className="w-4 h-4 text-[#1b7a2b]" />
                     <span>Dedicated Advisory Practice</span>
                   </div>
                   <div className="text-xs text-slate-600 mt-1.5 leading-relaxed font-normal">
@@ -40,7 +43,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             {/* Right Column: Editorial Overview */}
             <div className="lg:col-span-7 space-y-5">
               <div className="space-y-2">
-                <span className="text-xs font-semibold uppercase tracking-wider text-[#63ac4c] block">
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#1b7a2b] block">
                   About Our Firm
                 </span>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 leading-tight">
@@ -82,7 +85,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
               <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <button
                   onClick={onOpenConsultation}
-                  className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer"
+                  className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
                 >
                   <span>Schedule Consultation</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -117,7 +120,7 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             </button>
             <a
               href="tel:+917762067143"
-              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded transition-all shadow"
+              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded transition-all shadow min-h-[44px] flex items-center justify-center"
             >
               Call +91 77620 67143
             </a>

@@ -194,7 +194,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                       href={buildWhatsAppUrl(submittedData)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded flex items-center justify-center gap-2 shadow-xs"
+                      className="px-6 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 shadow-xs min-h-[44px]"
                     >
                       <MessageSquare className="w-4 h-4" />
                       <span>Send via WhatsApp</span>
@@ -208,18 +208,21 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   </div>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form onSubmit={handleSubmit} className="space-y-4" noValidate>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="contact-fullname" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Full Name <span className="text-rose-500">*</span>
                       </label>
                       <input
+                        id="contact-fullname"
+                        name="fullName"
                         type="text"
+                        autoComplete="name"
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         placeholder="e.g. Rajesh Sharma"
-                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors ${
+                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors min-h-[44px] ${
                           errors.fullName ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
                       />
@@ -227,15 +230,18 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     </div>
 
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="contact-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Mobile Number <span className="text-rose-500">*</span>
                       </label>
                       <input
+                        id="contact-phone"
+                        name="phone"
                         type="tel"
+                        autoComplete="tel"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="e.g. 98200 12345"
-                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors ${
+                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors min-h-[44px] ${
                           errors.phone ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
                       />
@@ -245,15 +251,18 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="contact-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Email Address <span className="text-slate-400 font-normal">(Optional)</span>
                       </label>
                       <input
+                        id="contact-email"
+                        name="email"
                         type="email"
+                        autoComplete="email"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         placeholder="e.g. rajesh@company.in"
-                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors ${
+                        className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-slate-800 placeholder-slate-400 focus:outline-none transition-colors min-h-[44px] ${
                           errors.email ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
                       />
@@ -261,13 +270,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     </div>
 
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="contact-service" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Service of Interest <span className="text-rose-500">*</span>
                       </label>
                       <select
+                        id="contact-service"
+                        name="serviceId"
                         value={formData.serviceId}
                         onChange={(e) => setFormData({ ...formData, serviceId: e.target.value })}
-                        className="w-full px-3 py-2.5 text-xs bg-white border border-slate-300 rounded text-slate-800 focus:outline-none focus:border-[#023e60]"
+                        className="w-full px-3 py-2.5 text-xs bg-white border border-slate-300 rounded text-slate-800 focus:outline-none focus:border-[#023e60] min-h-[44px]"
                       >
                         {SERVICES_DATA.map((srv) => (
                           <option key={srv.id} value={srv.id}>
@@ -279,10 +290,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                    <label htmlFor="contact-message" className="block text-xs font-semibold text-slate-700 mb-1.5">
                       Your Query or Business Profile <span className="text-slate-400 font-normal">(Optional)</span>
                     </label>
                     <textarea
+                      id="contact-message"
+                      name="notes"
                       rows={3}
                       value={formData.notes}
                       onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
@@ -298,7 +311,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer disabled:opacity-50"
+                      className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 shadow-xs transition-colors cursor-pointer disabled:opacity-50 min-h-[44px]"
                     >
                       <Send className="w-3.5 h-3.5" />
                       <span>{isSubmitting ? 'Sending...' : 'Submit Enquiry'}</span>

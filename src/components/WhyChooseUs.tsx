@@ -31,17 +31,20 @@ export const WhyChooseUs: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-lg overflow-hidden border border-slate-200 shadow-md group">
               <img
-                src="/assets/images/mumbai_business_district_1792759875538.jpg"
+                src="/assets/images/mumbai_business_district_1792759875538.webp"
                 alt="Mumbai business and financial commercial district Opera House"
+                width={1376}
+                height={768}
                 className="w-full h-[260px] sm:h-[360px] lg:h-[460px] object-cover transition-transform duration-300 group-hover:scale-102"
                 referrerPolicy="no-referrer"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#023e60]/90 via-[#023e60]/30 to-transparent" />
               
               <div className="absolute bottom-3 left-3 right-3 sm:bottom-5 sm:left-5 sm:right-5 p-3 sm:p-4 rounded bg-white/95 backdrop-blur-xs border border-slate-200 shadow text-xs">
                 <div className="flex items-center gap-2 text-[#023e60] font-bold mb-1">
-                  <ShieldCheck className="w-4 h-4 text-[#63ac4c]" />
+                  <ShieldCheck className="w-4 h-4 text-[#1b7a2b]" />
                   <span>Statutory Advisory Standards</span>
                 </div>
                 <p className="text-slate-600 leading-relaxed font-normal">
@@ -54,7 +57,7 @@ export const WhyChooseUs: React.FC = () => {
           {/* Right Column: Values & Explanations (7 cols) */}
           <div className="lg:col-span-7 space-y-6">
             <div className="space-y-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-[#63ac4c] block">
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#1b7a2b] block">
                 Why Choose Us
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight leading-tight">

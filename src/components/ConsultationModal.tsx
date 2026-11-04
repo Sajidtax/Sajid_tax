@@ -146,7 +146,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] rounded flex items-center justify-center gap-2 transition-colors shadow-sm"
+                  className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[44px]"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>Send to WhatsApp (+91 77620 67143)</span>
@@ -162,60 +162,71 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-3.5">
+            <form onSubmit={handleSubmit} className="space-y-3.5" noValidate>
               
               <div className="space-y-1">
-                <label className="block text-xs font-semibold text-slate-700">
+                <label htmlFor="modal-fullname" className="block text-xs font-semibold text-slate-700">
                   Full Name <span className="text-rose-500">*</span>
                 </label>
                 <input
+                  id="modal-fullname"
+                  name="fullName"
                   type="text"
+                  autoComplete="name"
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                   placeholder="Your Full Name"
-                  className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60]"
+                  className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60] min-h-[40px]"
                 />
                 {errors.fullName && <p className="text-[10px] text-rose-500 font-medium">{errors.fullName}</p>}
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="space-y-1">
-                  <label className="block text-xs font-semibold text-slate-700">
+                  <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700">
                     Phone Number <span className="text-rose-500">*</span>
                   </label>
                   <input
+                    id="modal-phone"
+                    name="phone"
                     type="tel"
+                    autoComplete="tel"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     placeholder="+91 98200 XXXXX"
-                    className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60]"
+                    className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60] min-h-[40px]"
                   />
                   {errors.phone && <p className="text-[10px] text-rose-500 font-medium">{errors.phone}</p>}
                 </div>
 
                 <div className="space-y-1">
-                  <label className="block text-xs font-semibold text-slate-700">
+                  <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700">
                     Email <span className="text-slate-400 text-[10px]">(Optional)</span>
                   </label>
                   <input
+                    id="modal-email"
+                    name="email"
                     type="email"
+                    autoComplete="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="you@domain.com"
-                    className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60]"
+                    className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60] min-h-[40px]"
                   />
                   {errors.email && <p className="text-[10px] text-rose-500 font-medium">{errors.email}</p>}
                 </div>
               </div>
 
               <div className="space-y-1">
-                <label className="block text-xs font-semibold text-slate-700">
+                <label htmlFor="modal-service" className="block text-xs font-semibold text-slate-700">
                   Service of Interest <span className="text-rose-500">*</span>
                 </label>
                 <select
+                  id="modal-service"
+                  name="serviceId"
                   value={formData.serviceId}
                   onChange={(e) => setFormData({ ...formData, serviceId: e.target.value })}
-                  className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60]"
+                  className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-slate-900 focus:outline-none focus:border-[#023e60] min-h-[40px]"
                 >
                   {SERVICES_DATA.map((srv) => (
                     <option key={srv.id} value={srv.id}>
@@ -226,10 +237,12 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               </div>
 
               <div className="space-y-1">
-                <label className="block text-xs font-semibold text-slate-700">
+                <label htmlFor="modal-notes" className="block text-xs font-semibold text-slate-700">
                   Brief Requirement Notes
                 </label>
                 <textarea
+                  id="modal-notes"
+                  name="notes"
                   rows={2}
                   value={formData.notes}
                   onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
@@ -241,7 +254,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] hover:bg-[#52993d] disabled:bg-slate-400 rounded transition-colors flex items-center justify-center gap-2 mt-2 shadow-xs cursor-pointer"
+                className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#1b7a2b] hover:bg-[#146422] disabled:bg-slate-400 rounded transition-colors flex items-center justify-center gap-2 mt-2 shadow-xs cursor-pointer min-h-[44px]"
               >
                 {isSubmitting ? 'Submitting...' : 'Submit Consultation Request'}
               </button>

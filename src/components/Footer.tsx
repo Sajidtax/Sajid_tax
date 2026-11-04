@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({
                   <div className="text-base font-bold text-[#023e60] leading-none">
                     Sajid Tax Consultant
                   </div>
-                  <div className="text-[9.5px] uppercase font-semibold text-[#63ac4c] mt-0.5">
+                  <div className="text-[9.5px] uppercase font-semibold text-[#1b7a2b] mt-0.5">
                     Tax & Corporate Advisory · Mumbai
                   </div>
                 </div>
@@ -123,11 +123,12 @@ export const Footer: React.FC<FooterProps> = ({
 
         </div>
 
-        {/* Back to top row */}
+        {/* Back to top row with accessible touch target & label */}
         <div className="mt-12 pt-8 border-t border-white/10 flex items-center justify-end">
           <button
             onClick={scrollToTop}
-            className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-[#87b978] transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-[#87b978] transition-colors cursor-pointer min-h-[44px] px-3"
+            aria-label="Scroll back to top of page"
           >
             <span>Back to top</span>
             <ArrowUp className="w-3.5 h-3.5" />
