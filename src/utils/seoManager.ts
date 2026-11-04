@@ -22,7 +22,7 @@ export interface PageSEOConfig {
 
 const PAGE_SEO_CONFIGS: Record<ActivePage, PageSEOConfig> = {
   home: {
-    title: 'Sajid Tax Consultant | Income Tax Return (ITR), GST & Company Registration Mumbai',
+    title: 'Best Tax Consultant | Accounting Firm | CA Work',
     description:
       'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Call +91 77620 67143.',
     keywords:
