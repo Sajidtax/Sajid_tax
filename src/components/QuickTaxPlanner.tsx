@@ -75,7 +75,7 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
   ];
 
   const current = scenarios[selectedScenario];
-  const whatsappUrl = `https://wa.me/917762067143?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/917782067143?text=${encodeURIComponent(
     `Hello Sajid Tax Consultant, I am reviewing my compliance requirements for: ${current.title}. Please guide me on next steps.`
   )}`;
 
@@ -85,14 +85,14 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-2 mb-12">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[#1b7a2b] block">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#15803d] block">
             Compliance Planner
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#023e60] tracking-tight">
             Check Your Required Documents & Filings
           </h2>
-          <div className="w-16 h-1 bg-[#1b7a2b] mx-auto mt-3 rounded-full" />
-          <p className="text-sm text-slate-600 font-normal leading-relaxed mt-3">
+          <div className="w-16 h-1 bg-[#15803d] mx-auto mt-3 rounded-full" />
+          <p className="text-sm text-[#1f2937] font-normal leading-relaxed mt-3">
             Select your business or individual scenario below to verify the exact forms, statutory deadlines, and required records before filing.
           </p>
         </div>

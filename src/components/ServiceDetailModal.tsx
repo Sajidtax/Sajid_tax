@@ -39,7 +39,7 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
   const whatsappText = encodeURIComponent(
     `Hello Sajid Tax Consultant, I would like to enquire about your services regarding: ${service.title}.`
   );
-  const whatsappUrl = `https://wa.me/917762067143?text=${whatsappText}`;
+  const whatsappUrl = `https://wa.me/917782067143?text=${whatsappText}`;
 
   return (
     <div

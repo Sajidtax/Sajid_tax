@@ -2,25 +2,20 @@
 > Chartered Tax & Corporate Advisory Firm based in Mumbai, India.
 
 ## Services
-- Income Tax Return (ITR) Filing & Compliance
-- GST Registration, Filing & Advisory
-- Corporate Tax, Company Auditing & Business Structuring
+- Income Tax Return (ITR) Filing & Tax Advisory
+- GST Registration, Filing & Compliance
+- Corporate Advisory, Auditing & Business Setup
 
-## Contact
+## Contact & Operating Hours
 - Location: Mumbai, Maharashtra, India
-- Consultation: +91 77620 67143 | Working Hours: Mon-Sat 11:00 AM - 7:00 PM IST
-- Address: Office No. 114A, 2nd Floor, Paras Juice Building, Tata Road No. 2, Near Prasad Chamber, Opera House, Mumbai 400004
-- Email: workwithsajid@zohomail.in
+- Phone: +91 77820 67143
+- Hours: Mon-Sat 11:00 AM - 7:00 PM IST
 
-## Actions
-- Booking Consultation Form: /#enquire
+## Actionable Endpoints
+- Consultation Inquiry: /#enquire
 - Service Catalog: /#services
-- Tax Regime Calculator: /#tax-calculator
-- Statutory Due Date Calendar: /#compliance-calendar
-- Diagnostic Advisor: /#diagnostic
-- Office Contact Desk: /#contact
 
-## Detailed Practice Areas
+## Practice Areas
 - Income Tax Return (ITR) Filing: /#/service/income-tax-itr
 - GST Registration: /#/service/gst-registration
 - GST Return Filing (GSTR-1, GSTR-3B): /#/service/gst-returns

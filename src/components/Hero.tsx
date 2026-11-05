@@ -22,25 +22,26 @@ interface HeroSlide {
 const HERO_SLIDES: HeroSlide[] = [
   {
     id: 'slide-1',
-    greenHeading: 'Partnering for Your',
-    blueHeading: 'Financial Success',
+    greenHeading: 'Leading Tax and',
+    blueHeading: 'Advisory Firm in Mumbai',
+    subTitle: 'Unparalleled Excellence in Tax and Advisory Services',
     bullets: '• Quality Services • Best Solutions • Best Results',
     description:
-      'We are committed to delivering high-quality services to meet all your possible needs to empower your financial journey.',
+      'Comprehensive tax consulting, GST compliance, business registration, and corporate advisory services designed to simplify regulatory requirements.',
     imageSrc: '/assets/images/hero-tax-illustration.webp',
-    imageAlt: 'Partnering for Your Financial Success — Sajid Tax Consultant Mumbai',
+    imageAlt: 'Leading Tax and Advisory Firm in Mumbai — Sajid Tax Consultant',
     width: 860,
     height: 740,
   },
   {
     id: 'slide-2',
-    greenHeading: 'Leading Tax and',
-    blueHeading: 'Advisory Firm in Mumbai',
-    subTitle: 'Unparalleled Excellence in Tax and Advisory Services',
+    greenHeading: 'Partnering for Your',
+    blueHeading: 'Financial Success',
+    bullets: '• Direct Tax • GST Returns • MCA Corporate Governance',
     description:
-      'Comprehensive tax consulting, GST compliance, business registration, and corporate advisory services designed to simplify regulatory requirements.',
+      'We are committed to delivering high-quality services to meet all your possible needs to empower your financial journey.',
     imageSrc: '/assets/aistudio/hero_slide_2_clean.webp',
-    imageAlt: 'Leading Tax and Advisory Firm in Mumbai — Sajid Tax Consultant',
+    imageAlt: 'Partnering for Your Financial Success — Sajid Tax Consultant Mumbai',
     width: 970,
     height: 700,
   },
@@ -48,7 +49,7 @@ const HERO_SLIDES: HeroSlide[] = [
     id: 'slide-3',
     greenHeading: 'Committed to',
     blueHeading: 'Excellence & Compliance',
-    bullets: '• Direct Tax • GST Returns • MCA Corporate Governance',
+    bullets: '• Statutory Rigor • Seamless Audit • Complete Confidentiality',
     description:
       'One stop destination to provide unified and agile statutory solutions to manage all your business complexities and regulatory compliances.',
     imageSrc: '/assets/images/consultation_desk_1792759875356.webp',
@@ -101,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       <button
         onClick={handlePrev}
         className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-r min-w-[48px] min-h-[48px]"
-        aria-label="Previous Slide"
+        aria-label="Previous slide"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
@@ -109,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
       <button
         onClick={handleNext}
         className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-12 h-14 bg-black/25 hover:bg-black/45 text-white flex items-center justify-center transition-colors cursor-pointer rounded-l min-w-[48px] min-h-[48px]"
-        aria-label="Next Slide"
+        aria-label="Next slide"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
@@ -156,11 +157,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
               {active.description}
             </p>
 
-            {/* CTAs with WCAG 2.1 AA 4.5:1 Compliant Contrast (White on #15803d dark green) */}
+            {/* CTAs with WCAG 2.1 AA 4.5:1 Compliant Contrast (White on #15803d dark green / #023e60) */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
                 onClick={onOpenConsultation}
-                className="px-6 sm:px-7 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
+                className="px-6 sm:px-7 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider text-white bg-[#023e60] hover:bg-[#0c5369] rounded transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer min-h-[48px] min-w-[48px]"
               >
                 <span>Get Started</span>
                 <ArrowRight className="w-4 h-4" />
@@ -168,17 +169,18 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
 
               <a
                 href="#services"
-                className="px-5 py-3 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center gap-1.5 min-h-[44px]"
+                className="px-5 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center justify-center gap-1.5 min-h-[48px] min-w-[48px]"
               >
                 <span>Our Services</span>
               </a>
 
               <a
-                href="tel:+917762067143"
-                className="px-4 py-3 text-xs sm:text-sm font-semibold text-[#111827] hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center gap-2 min-h-[44px]"
+                href="tel:+917782067143"
+                aria-label="Call +91 77820 67143"
+                className="px-4 py-3 text-xs sm:text-sm font-bold text-[#111827] hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center justify-center gap-2 min-h-[48px] min-w-[48px]"
               >
                 <PhoneCall className="w-3.5 h-3.5 text-[#15803d]" />
-                <span>+91 77620 67143</span>
+                <span>+91 77820 67143</span>
               </a>
             </div>
 
@@ -209,16 +211,28 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
                     idx === currentSlide ? 'opacity-100 z-10 pointer-events-auto' : 'opacity-0 z-0 pointer-events-none'
                   }`}
                 >
-                  <img
-                    src={slide.imageSrc}
-                    alt={slide.imageAlt}
-                    width={slide.width}
-                    height={slide.height}
-                    className="w-full h-full object-contain max-h-[440px] drop-shadow-sm"
-                    loading={idx === 0 ? 'eager' : 'lazy'}
-                    fetchPriority={idx === 0 ? 'high' : 'auto'}
-                    decoding={idx === 0 ? 'sync' : 'async'}
-                  />
+                  {idx === 0 ? (
+                    <img
+                      src={slide.imageSrc}
+                      alt={slide.imageAlt}
+                      width={slide.width}
+                      height={slide.height}
+                      className="w-full h-full object-contain max-h-[440px] drop-shadow-sm"
+                      fetchPriority="high"
+                      decoding="sync"
+                    />
+                  ) : (
+                    <img
+                      src={slide.imageSrc}
+                      alt={slide.imageAlt}
+                      width={slide.width}
+                      height={slide.height}
+                      className="w-full h-full object-contain max-h-[440px] drop-shadow-sm"
+                      loading="lazy"
+                      fetchPriority="auto"
+                      decoding="async"
+                    />
+                  )}
                 </div>
               ))}
             </div>
@@ -233,7 +247,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
           <button
             key={slide.id}
             onClick={() => goToSlide(idx)}
-            className="p-3 cursor-pointer flex items-center justify-center min-w-[44px] min-h-[44px]"
+            className="p-3 cursor-pointer flex items-center justify-center min-w-[48px] min-h-[48px]"
             aria-label={`Slide ${idx + 1}: ${slide.blueHeading}`}
             aria-selected={idx === currentSlide}
             role="tab"

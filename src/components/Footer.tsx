@@ -106,7 +106,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </li>
               ))}
               <li>
-                <a href="tel:+917762067143" className="text-[#87b978] font-semibold hover:underline">
+                <a href="tel:+917782067143" aria-label="Call +91 77820 67143" className="text-[#87b978] font-semibold hover:underline">
                   In-Person Advisory Desk →
                 </a>
               </li>
@@ -127,7 +127,7 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="mt-12 pt-8 border-t border-white/10 flex items-center justify-end">
           <button
             onClick={scrollToTop}
-            className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-[#87b978] transition-colors cursor-pointer min-h-[44px] px-3"
+            className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-[#87b978] transition-colors cursor-pointer min-h-[48px] min-w-[48px] px-3"
             aria-label="Scroll back to top of page"
           >
             <span>Back to top</span>
@@ -136,7 +136,7 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Bottom Legal & Copyright Bar */}
-        <div className="mt-6 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-[11.5px] text-[#a8a4a4]">
+        <div className="mt-6 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-[11.5px] text-slate-300">
           <div className="text-center md:text-left">
             © {new Date().getFullYear()} Sajid Tax Consultant, Mumbai. All rights reserved.
           </div>

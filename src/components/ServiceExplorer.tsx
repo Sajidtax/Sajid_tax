@@ -128,7 +128,7 @@ export const ServiceExplorer: React.FC<ServiceExplorerProps> = ({
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
             {filteredServices.map((service, idx) => {
               const category = SERVICE_CATEGORIES.find((c) => c.id === service.categoryId);
-              const whatsappUrl = `https://wa.me/917762067143?text=${encodeURIComponent(
+              const whatsappUrl = `https://wa.me/917782067143?text=${encodeURIComponent(
                 `Hello Sajid Tax Consultant, I would like to consult regarding: ${service.title}.`
               )}`;
 

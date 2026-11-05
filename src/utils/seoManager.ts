@@ -24,7 +24,7 @@ const PAGE_SEO_CONFIGS: Record<ActivePage, PageSEOConfig> = {
   home: {
     title: 'Sajid Tax Consultant | Best Tax Consultant | Accounting Firm | CA Work',
     description:
-      'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Call +91 77620 67143.',
+      'Professional Income Tax Return (ITR) filing, GST registration & returns, Private Limited & LLP company registration, ROC compliance, and bookkeeping services in Opera House, Mumbai. Call +91 77820 67143.',
     keywords:
       'Sajid Tax Consultant, Tax Consultant Mumbai, Income Tax Return Filing Mumbai, ITR Filing Opera House, GST Registration Mumbai, GST Return Filing, Company Registration Mumbai, Private Limited Registration, LLP Registration, ROC Compliance Mumbai, Udyam Registration, Mumbai Gumasta License, Accounting Bookkeeping, TDS Filing, FSSAI Registration Mumbai, DSC Digital Signature, Trademark Registration, Import Export Code IEC, CA firm Mumbai, Tax advisor South Mumbai',
     canonicalPath: '/',
@@ -80,7 +80,7 @@ const PAGE_SEO_CONFIGS: Record<ActivePage, PageSEOConfig> = {
   contact: {
     title: 'Contact Sajid Tax Consultant | Opera House, South Mumbai Office',
     description:
-      'Get in touch with Sajid Tax Consultant. Office No. 114A, 2nd Floor, Paras Juice Building, Tata Road No. 2, Opera House, Mumbai 400004. Call +91 77620 67143.',
+      'Get in touch with Sajid Tax Consultant. Office No. 114A, 2nd Floor, Paras Juice Building, Tata Road No. 2, Opera House, Mumbai 400004. Call +91 77820 67143.',
     keywords:
       'contact Sajid Tax Consultant, tax consultant Opera House Mumbai phone number, CA office address Mumbai, tax consultation appointment',
     canonicalPath: '/#contact',
@@ -171,7 +171,7 @@ export function updatePageSEO(service: ServiceItem | null, activePage: ActivePag
       provider: {
         '@type': 'ProfessionalService',
         name: 'Sajid Tax Consultant',
-        telephone: '+91-77620-67143',
+        telephone: '+91-77820-67143',
         email: 'workwithsajid@zohomail.in',
         address: {
           '@type': 'PostalAddress',

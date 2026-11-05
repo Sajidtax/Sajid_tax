@@ -17,27 +17,27 @@ export const FloatingWhatsApp: React.FC = () => {
   const whatsappMessage = encodeURIComponent(
     'Hello Sajid Tax Consultant, I am visiting your website and would like to consult regarding tax and business compliance.'
   );
-  const whatsappUrl = `https://wa.me/917762067143?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/917782067143?text=${whatsappMessage}`;
 
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2 font-poppins">
       {/* Tooltip on hover */}
       {showTooltip && (
-        <div className="bg-white border border-slate-200 text-slate-800 p-3 rounded shadow-xl text-xs max-w-[220px] relative animate-fade-in mb-1">
+        <div className="bg-white border border-slate-200 text-[#1f2937] p-3 rounded shadow-xl text-xs max-w-[220px] relative animate-fade-in mb-1">
           <button
             onClick={() => setShowTooltip(false)}
-            className="absolute top-2 right-2 text-slate-400 hover:text-slate-600"
+            className="absolute top-2 right-2 text-slate-500 hover:text-slate-800"
             aria-label="Close tooltip"
           >
             <X className="w-3.5 h-3.5" />
           </button>
           <div className="font-bold text-[#023e60] pr-4">Direct Consultation Desk</div>
-          <div className="text-[11px] text-slate-500 mt-0.5">
+          <div className="text-[11px] text-[#1f2937] mt-0.5">
             Mon–Sat 11:00 AM – 7:00 PM IST
           </div>
-          <div className="mt-2 flex items-center gap-1.5 text-[#023e60] font-semibold text-[11px]">
-            <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
-            <span>{istStatus.statusText}</span>
+          <div className="mt-2 flex items-center gap-1.5 text-[#15803d] font-bold text-[11px]">
+            <span className={`w-2 h-2 rounded-full ${istStatus.isOpen ? 'bg-[#15803d] animate-pulse' : 'bg-[#991b1b]'}`} />
+            <span className={istStatus.isOpen ? 'text-[#15803d]' : 'text-[#991b1b]'}>{istStatus.statusText}</span>
           </div>
         </div>
       )}
@@ -46,10 +46,10 @@ export const FloatingWhatsApp: React.FC = () => {
       <div className="flex items-center gap-2">
         {/* Telephone Call Button with accessible 48px touch target */}
         <a
-          href="tel:+917762067143"
-          className="w-12 h-12 rounded-full bg-white text-slate-700 hover:text-[#023e60] border border-slate-200 shadow-md flex items-center justify-center transition-transform hover:scale-105"
-          title="Call +91 77620 67143"
-          aria-label="Direct Phone Call to Sajid Tax Consultant at +91 77620 67143"
+          href="tel:+917782067143"
+          className="w-12 h-12 rounded-full bg-white text-slate-800 hover:text-[#023e60] border border-slate-300 shadow-md flex items-center justify-center transition-transform hover:scale-105 min-w-[48px] min-h-[48px]"
+          title="Call +91 77820 67143"
+          aria-label="Call +91 77820 67143"
         >
           <Phone className="w-5 h-5 text-[#023e60]" />
         </a>
@@ -60,8 +60,8 @@ export const FloatingWhatsApp: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           onMouseEnter={() => setShowTooltip(true)}
-          className="group relative flex items-center gap-2 px-4 py-3 bg-[#15803d] hover:bg-[#166534] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer min-h-[48px]"
-          aria-label="Contact Sajid Tax Consultant on WhatsApp"
+          className="group relative flex items-center gap-2 px-4 py-3 bg-[#15803d] hover:bg-[#166534] text-white rounded-full shadow-lg transition-all hover:scale-105 cursor-pointer min-h-[48px] min-w-[48px]"
+          aria-label="Chat with Sajid Tax Consultant on WhatsApp"
         >
           {/* Status Indicator Dot */}
           <span className="relative flex h-2.5 w-2.5">

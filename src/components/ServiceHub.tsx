@@ -258,7 +258,7 @@ export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
             <span className="text-[#15803d]">Committed</span>{' '}
             <span className="text-[#023e60]">to Excellence</span>
           </h2>
-          <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 font-normal leading-relaxed mt-3 max-w-3xl mx-auto">
+          <p className="text-xs sm:text-sm lg:text-[15px] text-[#1f2937] font-normal leading-relaxed mt-3 max-w-3xl mx-auto">
             One Stop Destination to provide unified and agile solutions to manage all your business complexities and regulatory compliances
           </p>
         </div>

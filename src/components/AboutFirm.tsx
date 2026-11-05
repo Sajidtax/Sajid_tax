@@ -30,10 +30,10 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
                 
                 <div className="absolute bottom-3 left-3 right-3 sm:bottom-5 sm:left-5 sm:right-5 p-3 sm:p-4 rounded bg-white/95 backdrop-blur-xs border border-slate-200 shadow">
                   <div className="flex items-center gap-2 text-[#023e60] font-bold text-xs uppercase tracking-wider">
-                    <Building className="w-4 h-4 text-[#1b7a2b]" />
+                    <Building className="w-4 h-4 text-[#15803d]" />
                     <span>Dedicated Advisory Practice</span>
                   </div>
-                  <div className="text-xs text-slate-600 mt-1.5 leading-relaxed font-normal">
+                  <div className="text-xs text-[#1f2937] mt-1.5 leading-relaxed font-normal">
                     Serving individual taxpayers, MSMEs, and corporate enterprises across South Mumbai and Greater Maharashtra.
                   </div>
                 </div>
@@ -43,17 +43,17 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
             {/* Right Column: Editorial Overview */}
             <div className="lg:col-span-7 space-y-5">
               <div className="space-y-2">
-                <span className="text-xs font-semibold uppercase tracking-wider text-[#1b7a2b] block">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#15803d] block">
                   About Our Firm
                 </span>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 leading-tight">
                   Trusted Financial & Tax Advisory{' '}
                   <span className="text-[#023e60]">in Mumbai</span>
                 </h2>
-                <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal pt-1">
+                <p className="text-sm sm:text-base text-[#1f2937] leading-relaxed font-normal pt-1">
                   At <strong>Sajid Tax Consultant</strong>, our mission is to deliver transparent, compliant, and accurate tax and regulatory solutions. Based in Mumbai, we serve individual taxpayers, startups, professionals, and corporate enterprises across Maharashtra and India.
                 </p>
-                <p className="text-sm text-slate-600 leading-relaxed font-normal">
+                <p className="text-sm text-[#1f2937] leading-relaxed font-normal">
                   Our practice spans direct taxation (Income Tax Returns, TDS/TCS), indirect taxation (GST registration, returns, reconciliation), corporate business setup (Pvt Ltd, LLP, Partnership firms), and mandatory compliance filings with the Ministry of Corporate Affairs (ROC).
                 </p>
               </div>
@@ -62,20 +62,20 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                 <div className="p-4 rounded bg-[#f8fafc] border border-slate-200 space-y-1">
                   <div className="flex items-center gap-2 text-[#023e60] font-semibold text-sm">
-                    <CheckCircle2 className="w-4 h-4 text-[#63ac4c]" />
+                    <CheckCircle2 className="w-4 h-4 text-[#15803d]" />
                     <span>Statutory Rigor</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
+                  <p className="text-xs text-[#1f2937] leading-relaxed">
                     Precise voucher reconciliation against Form 26AS, AIS, and GSTR-2B to prevent mismatches or statutory notices.
                   </p>
                 </div>
 
                 <div className="p-4 rounded bg-[#f8fafc] border border-slate-200 space-y-1">
                   <div className="flex items-center gap-2 text-[#023e60] font-semibold text-sm">
-                    <Shield className="w-4 h-4 text-[#63ac4c]" />
+                    <Shield className="w-4 h-4 text-[#15803d]" />
                     <span>Complete Confidentiality</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
+                  <p className="text-xs text-[#1f2937] leading-relaxed">
                     Enterprise-grade privacy standards protecting personal financial data and proprietary company records.
                   </p>
                 </div>
@@ -85,14 +85,14 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
               <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <button
                   onClick={onOpenConsultation}
-                  className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center gap-2 cursor-pointer min-h-[44px]"
+                  className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer min-h-[48px] min-w-[48px]"
                 >
                   <span>Schedule Consultation</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
 
-                <div className="text-xs text-slate-500 font-medium">
-                  Office Schedule: <span className="text-slate-800 font-semibold">Mon–Sat 11:00 AM – 7:00 PM IST</span>
+                <div className="text-xs text-[#1f2937] font-medium">
+                  Office Schedule: <span className="text-slate-900 font-bold">Mon–Sat 11:00 AM – 7:00 PM IST</span>
                 </div>
               </div>
 
@@ -114,15 +114,16 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
           <div className="pt-2 flex items-center justify-center gap-4">
             <button
               onClick={onOpenConsultation}
-              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-[#023e60] bg-white hover:bg-slate-100 rounded transition-all shadow cursor-pointer"
+              className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-[#023e60] bg-white hover:bg-slate-100 rounded transition-all shadow cursor-pointer min-h-[48px] min-w-[48px] flex items-center justify-center"
             >
               Contact Our Advisors
             </button>
             <a
-              href="tel:+917762067143"
-              className="px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow min-h-[44px] flex items-center justify-center"
+              href="tel:+917782067143"
+              aria-label="Call +91 77820 67143"
+              className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow min-h-[48px] min-w-[48px] flex items-center justify-center"
             >
-              Call +91 77620 67143
+              Call +91 77820 67143
             </a>
           </div>
         </div>

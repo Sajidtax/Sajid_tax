@@ -84,36 +84,37 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-5">
             <a
-              href="tel:+917762067143"
-              className="flex items-center gap-2 text-slate-800 hover:text-[#023e60] font-medium transition-colors"
+              href="tel:+917782067143"
+              aria-label="Call +91 77820 67143"
+              className="flex items-center gap-2 text-[#1f2937] hover:text-[#023e60] font-semibold transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#15803d]" />
-              <span>+91 77620 67143</span>
+              <span>+91 77820 67143</span>
             </a>
             <span className="text-slate-300">|</span>
             <a
               href="mailto:workwithsajid@zohomail.in"
-              className="flex items-center gap-2 text-slate-700 hover:text-[#023e60] transition-colors"
+              className="flex items-center gap-2 text-[#1f2937] hover:text-[#023e60] transition-colors"
             >
-              <Mail className="w-3.5 h-3.5 text-[#63ac4c]" />
+              <Mail className="w-3.5 h-3.5 text-[#15803d]" />
               <span>workwithsajid@zohomail.in</span>
             </a>
             <span className="text-slate-300">|</span>
-            <span className="flex items-center gap-1.5 text-slate-600">
-              <MapPin className="w-3.5 h-3.5 text-[#63ac4c]" />
+            <span className="flex items-center gap-1.5 text-[#1f2937]">
+              <MapPin className="w-3.5 h-3.5 text-[#15803d]" />
               <span>Mumbai, Maharashtra</span>
             </span>
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1.5 text-slate-600">
-              <Clock className="w-3.5 h-3.5 text-[#63ac4c]" />
+            <span className="flex items-center gap-1.5 text-[#1f2937]">
+              <Clock className="w-3.5 h-3.5 text-[#023e60]" />
               <span>Mon–Sat: 11:00 AM – 7:00 PM IST</span>
             </span>
             <span className="text-slate-300">|</span>
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 border border-emerald-200">
-              <span className={`w-1.5 h-1.5 rounded-full ${istStatus.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
-              <span className={istStatus.isOpen ? 'text-[#023e60]' : 'text-slate-600'}>{istStatus.statusText}</span>
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white border border-slate-300">
+              <span className={`w-1.5 h-1.5 rounded-full ${istStatus.isOpen ? 'bg-[#15803d] animate-pulse' : 'bg-[#991b1b]'}`} />
+              <span className={istStatus.isOpen ? 'text-[#15803d]' : 'text-[#991b1b]'}>{istStatus.statusText}</span>
             </span>
           </div>
         </div>
@@ -121,21 +122,21 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* 2. Mobile Quick Tap Ribbon */}
       <div className="bg-[#023e60] text-white text-[11px] py-1.5 px-4 md:hidden flex items-center justify-between">
-        <a href="tel:+917762067143" className="flex items-center gap-1.5 font-medium hover:text-[#87b978]">
-          <Phone className="w-3 h-3 text-[#63ac4c]" />
-          <span>+91 77620 67143</span>
+        <a href="tel:+917782067143" aria-label="Call +91 77820 67143" className="flex items-center gap-1.5 font-bold hover:text-[#87b978]">
+          <Phone className="w-3 h-3 text-[#4ade80]" />
+          <span>+91 77820 67143</span>
         </a>
         <div className="flex items-center gap-2">
-          <span className="inline-flex items-center gap-1 text-[10px] text-slate-200">
-            <span className={`w-1.5 h-1.5 rounded-full ${istStatus.isOpen ? 'bg-[#63ac4c] animate-pulse' : 'bg-slate-400'}`} />
-            <span>{istStatus.isOpen ? 'Open Now (IST)' : 'Closed'}</span>
+          <span className="inline-flex items-center gap-1 text-[10px] text-white font-medium">
+            <span className={`w-1.5 h-1.5 rounded-full ${istStatus.isOpen ? 'bg-[#4ade80] animate-pulse' : 'bg-[#f87171]'}`} />
+            <span className={istStatus.isOpen ? 'text-[#4ade80] font-bold' : 'text-[#fca5a5] font-bold'}>{istStatus.isOpen ? 'Open Now (IST)' : 'Closed'}</span>
           </span>
           <span className="text-slate-400">·</span>
           <a
-            href="https://wa.me/917762067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
+            href="https://wa.me/917782067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#87b978] font-bold text-[10.5px]"
+            className="text-[#4ade80] font-bold text-[10.5px]"
           >
             WhatsApp
           </a>
@@ -331,16 +332,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="flex items-center gap-2 lg:hidden shrink-0">
             <button
               onClick={onOpenConsultation}
-              className="px-3.5 py-2 min-h-[44px] text-xs font-semibold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded shadow-xs flex items-center justify-center cursor-pointer"
+              className="px-3.5 py-2 min-h-[48px] min-w-[48px] text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded shadow-xs flex items-center justify-center cursor-pointer"
             >
               Enquire
             </button>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2.5 min-w-[48px] min-h-[48px] text-slate-700 hover:text-[#023e60] rounded flex items-center justify-center cursor-pointer"
+              className="p-2.5 min-w-[48px] min-h-[48px] text-slate-800 hover:text-[#023e60] rounded flex items-center justify-center cursor-pointer"
               aria-label="Toggle navigation menu"
               aria-expanded={mobileMenuOpen ? 'true' : 'false'}
+              aria-controls="nav-menu"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -351,7 +353,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-4 shadow-lg animate-fadeIn max-h-[85vh] overflow-y-auto">
+        <div id="nav-menu" className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-4 shadow-lg animate-fadeIn max-h-[85vh] overflow-y-auto">
           <div className="space-y-1 border-b border-slate-100 pb-3">
             <button
               onClick={() => {
@@ -433,17 +435,18 @@ export const Navbar: React.FC<NavbarProps> = ({
                 setMobileMenuOpen(false);
                 onOpenConsultation();
               }}
-              className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#63ac4c] rounded shadow-xs"
+              className="w-full py-3 text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded shadow-xs min-h-[48px] flex items-center justify-center cursor-pointer"
             >
               Schedule Consultation
             </button>
             <a
-              href="https://wa.me/917762067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
+              href="https://wa.me/917782067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#023e60] rounded shadow-xs flex items-center justify-center gap-2"
+              aria-label="Chat with Sajid Tax Consultant on WhatsApp"
+              className="w-full py-3 text-xs font-bold uppercase tracking-wider text-white bg-[#023e60] rounded shadow-xs flex items-center justify-center gap-2 min-h-[48px]"
             >
-              <MessageSquare className="w-3.5 h-3.5" />
+              <MessageSquare className="w-4 h-4 text-white" />
               <span>Chat on WhatsApp</span>
             </a>
           </div>
