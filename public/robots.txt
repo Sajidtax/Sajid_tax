@@ -23,4 +23,6 @@ User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://www.sajidtaxconsultant.online/sitemap.xml
+Agentmap: https://www.sajidtaxconsultant.online/.well-known/ard.json
+LLMs-txt: https://www.sajidtaxconsultant.online/llms.txt
 Host: https://www.sajidtaxconsultant.online

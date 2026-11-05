@@ -162,7 +162,17 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
               </div>
             </div>
           ) : (
-            <form id="consultation-form" action="/submit-inquiry" method="POST" onSubmit={handleSubmit} className="space-y-3.5" noValidate>
+            <form
+              id="consultation-form"
+              action="/submit-inquiry"
+              method="POST"
+              onSubmit={handleSubmit}
+              className="space-y-3.5"
+              noValidate
+              toolname="request_tax_consultation"
+              tooldescription="Submit an immediate consultation advisory request to Sajid Tax Consultant"
+              toolautosubmit="true"
+            >
               
               <div className="space-y-1">
                 <label htmlFor="modal-fullname" className="block text-xs font-bold text-[#1f2937]">
@@ -176,6 +186,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                   placeholder="Your Full Name"
+                  toolparamdescription="Client full legal or business name"
                   className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] min-h-[48px]"
                 />
                 {errors.fullName && <p className="text-[10px] text-rose-600 font-semibold">{errors.fullName}</p>}
@@ -194,6 +205,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     placeholder="+91 98200 XXXXX"
+                    toolparamdescription="Client direct mobile phone number"
                     className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] min-h-[48px]"
                   />
                   {errors.phone && <p className="text-[10px] text-rose-600 font-semibold">{errors.phone}</p>}
@@ -211,6 +223,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="you@domain.com"
+                    toolparamdescription="Client email address"
                     className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] min-h-[48px]"
                   />
                   {errors.email && <p className="text-[10px] text-rose-600 font-semibold">{errors.email}</p>}
@@ -226,6 +239,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   name="serviceId"
                   value={formData.serviceId}
                   onChange={(e) => setFormData({ ...formData, serviceId: e.target.value })}
+                  toolparamdescription="Practice area service ID (e.g. income-tax-itr, gst-registration, private-limited-company)"
                   className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] min-h-[48px]"
                 >
                   {SERVICES_DATA.map((srv) => (
@@ -247,6 +261,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   value={formData.notes}
                   onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                   placeholder="Share details (e.g. pending ITR, new firm registration)..."
+                  toolparamdescription="Requirement notes, business profile, or specific filing questions"
                   className="w-full px-3 py-2 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] resize-none"
                 />
               </div>

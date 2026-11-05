@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "specVersion": "1.0",
+  "host": {
+    "identifier": "did:web:www.sajidtaxconsultant.online",
+    "displayName": "Sajid Tax Consultant",
+    "documentationUrl": "https://www.sajidtaxconsultant.online/llms.txt"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:www.sajidtaxconsultant.online:advisory:mcp",
+      "displayName": "Sajid Tax Consultant Advisory Service",
+      "type": "application/mcp-server-card+json",
+      "url": "https://www.sajidtaxconsultant.online/#enquire",
+      "description": "Income Tax Return (ITR) filing, GST registration & compliance, and corporate business advisory desk in Mumbai.",
+      "capabilities": [
+        "IncomeTaxFiling",
+        "GSTCompliance",
+        "CompanyRegistration",
+        "BookConsultation"
+      ],
+      "representativeQueries": [
+        "consult regarding ITR filing in Mumbai",
+        "register GST or Private Limited company"
+      ]
+    }
+  ]
+}

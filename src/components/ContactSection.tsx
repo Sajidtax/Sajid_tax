@@ -209,7 +209,17 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   </div>
                 </div>
               ) : (
-                <form id="inquiry-form" method="POST" action="/submit-inquiry" onSubmit={handleSubmit} className="space-y-4" noValidate>
+                <form
+                  id="inquiry-form"
+                  method="POST"
+                  action="/submit-inquiry"
+                  onSubmit={handleSubmit}
+                  className="space-y-4"
+                  noValidate
+                  toolname="book_tax_consultation"
+                  tooldescription="Submit a direct inquiry or tax consultation booking for Income Tax Returns (ITR), GST, or Private Limited & LLP company registration to Sajid Tax Consultant"
+                  toolautosubmit="true"
+                >
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="contact-fullname" className="block text-xs font-bold text-[#1f2937] mb-1.5">
@@ -223,6 +233,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         placeholder="e.g. Rajesh Sharma"
+                        toolparamdescription="Client full legal or business name"
                         className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-[#1f2937] placeholder-slate-400 focus:outline-none transition-colors min-h-[48px] ${
                           errors.fullName ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
@@ -242,6 +253,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="e.g. 98200 12345"
+                        toolparamdescription="Client direct mobile phone number"
                         className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-[#1f2937] placeholder-slate-400 focus:outline-none transition-colors min-h-[48px] ${
                           errors.phone ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
@@ -263,6 +275,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         placeholder="e.g. rajesh@company.in"
+                        toolparamdescription="Client email address"
                         className={`w-full px-3.5 py-2.5 text-xs bg-white border rounded text-[#1f2937] placeholder-slate-400 focus:outline-none transition-colors min-h-[48px] ${
                           errors.email ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-[#023e60]'
                         }`}
@@ -279,6 +292,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         name="serviceId"
                         value={formData.serviceId}
                         onChange={(e) => setFormData({ ...formData, serviceId: e.target.value })}
+                        toolparamdescription="Practice area service ID (e.g. income-tax-itr, gst-registration, private-limited-company)"
                         className="w-full px-3 py-2.5 text-xs bg-white border border-slate-300 rounded text-[#1f2937] focus:outline-none focus:border-[#023e60] min-h-[48px]"
                       >
                         {SERVICES_DATA.map((srv) => (
@@ -301,6 +315,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                       value={formData.notes}
                       onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                       placeholder="Mention turnover, number of directors, or specific filing questions..."
+                      toolparamdescription="Requirement notes, business profile, or specific filing questions"
                       className="w-full px-3.5 py-2.5 text-xs bg-white border border-slate-300 rounded text-[#1f2937] placeholder-slate-400 focus:outline-none focus:border-[#023e60] resize-none"
                     />
                   </div>

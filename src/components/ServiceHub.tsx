@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Search, X, ArrowRight } from 'lucide-react';
 import { SERVICES_DATA } from '../data/servicesData';
 import { ServiceItem } from '../types';
@@ -17,15 +17,6 @@ interface ExcellenceCardDef {
 export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showAllServices, setShowAllServices] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Subtle skeleton screen on initial load to enhance perceived performance
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 450);
-    return () => clearTimeout(timer);
-  }, []);
 
   // High-fidelity green line SVG icons matching image_635061a8.png stroke style
   const EXCELLENCE_SERVICES: ExcellenceCardDef[] = [
@@ -263,34 +254,9 @@ export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
           </p>
         </div>
 
-        {/* 12 Clean White Cards Grid matching image_635061a8.png with Subtle Skeleton Loading Screen */}
-        {isLoading ? (
-          <div
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-5"
-            aria-busy="true"
-            aria-label="Loading statutory services"
-          >
-            {[...Array(12)].map((_, idx) => (
-              <div
-                key={`service-skeleton-${idx}`}
-                className="bg-white rounded-lg border border-slate-200/80 p-4 sm:p-6 flex flex-col items-center justify-center text-center shadow-2xs min-h-[160px] sm:min-h-[190px] animate-shimmer"
-              >
-                {/* Skeleton Green/Gray Icon Placeholder */}
-                <div className="w-13 h-13 rounded-xl bg-slate-100 flex items-center justify-center mb-3 sm:mb-4">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-100/60" />
-                </div>
-
-                {/* Skeleton Title Placeholder Bars */}
-                <div className="w-full flex flex-col items-center gap-1.5 px-2">
-                  <div className="w-4/5 h-3 rounded bg-slate-200/80" />
-                  <div className="w-3/5 h-2.5 rounded bg-slate-200/60" />
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-5 animate-fastFadeIn">
-            {EXCELLENCE_SERVICES.map((card, idx) => (
+        {/* 12 Clean White Cards Grid matching image_635061a8.png */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-5">
+          {EXCELLENCE_SERVICES.map((card, idx) => (
               <button
                 key={idx}
                 onClick={() => handleCardClick(card.serviceId)}
@@ -308,8 +274,7 @@ export const ServiceHub: React.FC<ServiceHubProps> = ({ onSelectService }) => {
                 </h3>
               </button>
             ))}
-          </div>
-        )}
+        </div>
 
         {/* Minimal Search & Full Directory Toggle (Keeps layout clean while giving full access) */}
         <div className="mt-10 sm:mt-12 pt-8 border-t border-slate-200/80 flex flex-col sm:flex-row items-center justify-between gap-4">

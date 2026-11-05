@@ -58,6 +58,10 @@
     content="Professional Income Tax Return (ITR) filing, GST registration, Private Limited Company registration, and ROC compliance in Opera House, Mumbai. Call +91 77820 67143." />
   <meta name="twitter:image" content="https://www.sajidtaxconsultant.online/assets/images/hero-tax-illustration.webp" />
 
+  <!-- Agentic Resource Discovery (ARD) Manifest Links -->
+  <link rel="ard" href="/.well-known/ard.json" />
+  <link rel="ai-catalog" href="/.well-known/ai-catalog.json" />
+
   <!-- Fast Asset Preloading & Resource Hints (Placed before all stylesheets for instant LCP) -->
   <link rel="preload" as="image" href="/assets/images/hero-tax-illustration.webp" type="image/webp" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,6 +83,40 @@
       }
     }
   </style>
+
+  <!-- WebMCP (Model Context Protocol) AI Agent Registry -->
+  <script>
+    if (typeof window !== 'undefined') {
+      window.modelContext = window.modelContext || {
+        tools: [
+          {
+            name: "book_tax_consultation",
+            description: "Submit a direct consultation booking or inquiry regarding Income Tax Return (ITR) filing, GST compliance, or Private Limited & LLP company registration to Sajid Tax Consultant.",
+            parameters: {
+              type: "object",
+              properties: {
+                fullName: { type: "string", description: "Full legal or company name" },
+                phone: { type: "string", description: "Direct mobile phone number" },
+                email: { type: "string", description: "Email address" },
+                serviceId: { type: "string", description: "Service ID (e.g. income-tax-itr, gst-registration, private-limited-company)" },
+                notes: { type: "string", description: "Brief requirement notes" }
+              },
+              required: ["fullName", "phone", "serviceId"]
+            }
+          }
+        ]
+      };
+      try {
+        if (typeof navigator !== 'undefined' && !navigator.modelContext) {
+          Object.defineProperty(navigator, 'modelContext', {
+            value: window.modelContext,
+            writable: true,
+            configurable: true
+          });
+        }
+      } catch (e) {}
+    }
+  </script>
 
   <!-- Non-blocking Google Fonts with print onload swap -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
@@ -330,8 +368,11 @@
 </head>
 
 <body class="bg-white text-slate-900 selection:bg-[#023e60]/20 selection:text-[#023e60] min-h-screen">
-  <!-- Prerendered Semantic SEO Content (Crawled instantly by Google/Bing bots before React hydration) -->
-  <div id="root">
+  <!-- Clean Mount Point for React (Zero layout shift on hydration) -->
+  <div id="root"></div>
+
+  <!-- Prerendered Semantic SEO Content for Non-JS Crawlers -->
+  <noscript>
     <header style="padding: 1.5rem; border-bottom: 1px solid #e2e8f0; background: #ffffff;">
       <p style="font-weight: 700; font-size: 1.25rem; color: #023e60; margin: 0;">Sajid Tax Consultant</p>
       <p style="font-size: 0.85rem; color: #64748b; margin: 0.25rem 0 0 0;">Opera House, Mumbai &bull; Chartered Tax &amp; Corporate Advisory Desk</p>
@@ -365,7 +406,7 @@
         <p style="margin: 0.25rem 0; color: #334155;"><strong>Office Hours:</strong> Monday &ndash; Saturday: 11:00 AM &ndash; 7:00 PM IST (Closed Sundays)</p>
       </section>
     </main>
-  </div>
+  </noscript>
 
   <script type="module" src="/src/main.tsx"></script>
 </body>

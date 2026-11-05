@@ -1,40 +1,41 @@
 # Sajid Tax Consultant
+
 > Chartered Tax & Corporate Advisory Firm based in Mumbai, India.
 
 ## Services
-- Income Tax Return (ITR) Filing & Tax Advisory
-- GST Registration, Filing & Compliance
-- Corporate Advisory, Auditing & Business Setup
+- [Income Tax Return (ITR) Filing & Tax Advisory](https://www.sajidtaxconsultant.online/#/service/income-tax-itr)
+- [GST Registration, Filing & Compliance](https://www.sajidtaxconsultant.online/#/service/gst-registration)
+- [Corporate Advisory, Auditing & Business Setup](https://www.sajidtaxconsultant.online/#/service/private-limited-company)
 
 ## Contact & Operating Hours
 - Location: Mumbai, Maharashtra, India
-- Phone: +91 77820 67143
+- Phone: [+91 77820 67143](tel:+917782067143)
 - Hours: Mon-Sat 11:00 AM - 7:00 PM IST
 
 ## Actionable Endpoints
-- Consultation Inquiry: /#enquire
-- Service Catalog: /#services
+- [Consultation Inquiry](https://www.sajidtaxconsultant.online/#enquire): /#enquire
+- [Service Catalog](https://www.sajidtaxconsultant.online/#services): /#services
 
 ## Practice Areas
-- Income Tax Return (ITR) Filing: /#/service/income-tax-itr
-- GST Registration: /#/service/gst-registration
-- GST Return Filing (GSTR-1, GSTR-3B): /#/service/gst-returns
-- Private Limited Company Incorporation: /#/service/private-limited-company
-- Limited Liability Partnership (LLP) Registration: /#/service/llp-registration
-- Partnership Firm Registration: /#/service/firm-registration
-- Udyam MSME Registration: /#/service/udyam-registration
-- Mumbai Gumasta (Shop & Establishment) License: /#/service/gumasta-shop-establishment
-- Accounting & Bookkeeping Services: /#/service/accounting-services
-- ROC Annual Compliance & Filings: /#/service/roc-compliance
-- TDS / TCS Filings & Returns: /#/service/tds-tcs-services
-- Provident Fund (PF) Services: /#/service/pf-services
-- FSSAI Food License Registration: /#/service/fssai-registration
-- Class 3 Digital Signature Certificate (DSC): /#/service/digital-signature-certificate
-- Trademark Registration Assistance: /#/service/trademark-registration
-- Import Export Code (IEC): /#/service/import-export-code
-- Auditing & Assurance Services: /#/service/auditing-assurance
-- NRI Taxation Services: /#/service/nri-taxation
-- Transfer Pricing Advisory: /#/service/transfer-pricing
-- Registration of Indian Subsidiary Company: /#/service/indian-subsidiary-registration
-- Foreign Company Branch & Liaison Office: /#/service/foreign-company-registration
-- Tax Investment & Financial Advisory: /#/service/financial-advisory
+- [Income Tax Return (ITR) Filing](https://www.sajidtaxconsultant.online/#/service/income-tax-itr): Salaried, business, and capital gains tax filing.
+- [GST Registration](https://www.sajidtaxconsultant.online/#/service/gst-registration): New GST registration and composition scheme.
+- [GST Return Filing (GSTR-1, GSTR-3B)](https://www.sajidtaxconsultant.online/#/service/gst-returns): Monthly and annual compliance.
+- [Private Limited Company Incorporation](https://www.sajidtaxconsultant.online/#/service/private-limited-company): MCA SPICe+ company setup.
+- [Limited Liability Partnership (LLP) Registration](https://www.sajidtaxconsultant.online/#/service/llp-registration): LLP incorporation and drafting.
+- [Partnership Firm Registration](https://www.sajidtaxconsultant.online/#/service/firm-registration): Firm registration and deed drafting.
+- [Udyam MSME Registration](https://www.sajidtaxconsultant.online/#/service/udyam-registration): Government of India MSME certification.
+- [Mumbai Gumasta (Shop & Establishment) License](https://www.sajidtaxconsultant.online/#/service/gumasta-shop-establishment): MCGM commercial license.
+- [Accounting & Bookkeeping Services](https://www.sajidtaxconsultant.online/#/service/accounting-services): Financial finalization and ledger review.
+- [ROC Annual Compliance & Filings](https://www.sajidtaxconsultant.online/#/service/roc-compliance): MCA AOC-4, MGT-7, and KYC filings.
+- [TDS / TCS Filings & Returns](https://www.sajidtaxconsultant.online/#/service/tds-tcs-services): Quarterly 24Q, 26Q compliance.
+- [Provident Fund (PF) Services](https://www.sajidtaxconsultant.online/#/service/pf-services): EPFO filings and member management.
+- [FSSAI Food License Registration](https://www.sajidtaxconsultant.online/#/service/fssai-registration): FBO licensing and registration.
+- [Class 3 Digital Signature Certificate (DSC)](https://www.sajidtaxconsultant.online/#/service/digital-signature-certificate): MCA, ITR, and e-tender token.
+- [Trademark Registration Assistance](https://www.sajidtaxconsultant.online/#/service/trademark-registration): Brand and logo registration.
+- [Import Export Code (IEC)](https://www.sajidtaxconsultant.online/#/service/import-export-code): DGFT international trade license.
+- [Auditing & Assurance Services](https://www.sajidtaxconsultant.online/#/service/auditing-assurance): Independent assurance and audits.
+- [NRI Taxation Services](https://www.sajidtaxconsultant.online/#/service/nri-taxation): Non-resident Indian tax advisory and DTAA.
+- [Transfer Pricing Advisory](https://www.sajidtaxconsultant.online/#/service/transfer-pricing): Domestic and international transfer pricing.
+- [Registration of Indian Subsidiary Company](https://www.sajidtaxconsultant.online/#/service/indian-subsidiary-registration): Foreign subsidiary setup.
+- [Foreign Company Branch & Liaison Office](https://www.sajidtaxconsultant.online/#/service/foreign-company-registration): Branch setup in India.
+- [Tax Investment & Financial Advisory](https://www.sajidtaxconsultant.online/#/service/financial-advisory): Comprehensive tax advisory.
