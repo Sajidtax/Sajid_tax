@@ -55,7 +55,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
   const buildWhatsAppUrl = (data: InquiryFormData) => {
     const sName = SERVICES_DATA.find((s) => s.id === data.serviceId)?.title || data.serviceId;
     const msg = `Hello Sajid Tax Consultant,\n\nI would like to consult regarding:\n- Service: ${sName}\n- Name: ${data.fullName}\n- Phone: ${data.phone}${data.email ? `\n- Email: ${data.email}` : ''}${data.notes ? `\n- Requirement: ${data.notes}` : ''}`;
-    return `https://wa.me/917782067143?text=${encodeURIComponent(msg)}`;
+    return `https://wa.me/917762067143?text=${encodeURIComponent(msg)}`;
   };
 
   return (
@@ -118,11 +118,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   <div>
                     <div className="text-[11px] text-[#1f2937] font-medium">Telephone / Direct Mobile</div>
                     <a
-                      href="tel:+917782067143"
-                      aria-label="Call +91 77820 67143"
+                      href="tel:+917762067143"
+                      aria-label="Call +91 77620 67143"
                       className="text-xs font-bold text-[#023e60] hover:text-[#15803d] transition-colors"
                     >
-                      +91 77820 67143
+                      +91 77620 67143
                     </a>
                   </div>
                 </div>
@@ -149,12 +149,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   <div>
                     <div className="text-[11px] text-[#1f2937] font-medium">Instant Consultation Desk</div>
                     <a
-                      href="https://wa.me/917782067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
+                      href="https://wa.me/917762067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs font-bold text-[#15803d] hover:underline"
                     >
-                      WhatsApp Message (+91 77820 67143)
+                      WhatsApp Message (+91 77620 67143)
                     </a>
                   </div>
                 </div>

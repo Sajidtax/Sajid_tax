@@ -17,7 +17,7 @@ export const FloatingWhatsApp: React.FC = () => {
   const whatsappMessage = encodeURIComponent(
     'Hello Sajid Tax Consultant, I am visiting your website and would like to consult regarding tax and business compliance.'
   );
-  const whatsappUrl = `https://wa.me/917782067143?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/917762067143?text=${whatsappMessage}`;
 
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-2 font-poppins">
@@ -46,10 +46,10 @@ export const FloatingWhatsApp: React.FC = () => {
       <div className="flex items-center gap-2">
         {/* Telephone Call Button with accessible 48px touch target */}
         <a
-          href="tel:+917782067143"
+          href="tel:+917762067143"
           className="w-12 h-12 rounded-full bg-white text-slate-800 hover:text-[#023e60] border border-slate-300 shadow-md flex items-center justify-center transition-transform hover:scale-105 min-w-[48px] min-h-[48px]"
-          title="Call +91 77820 67143"
-          aria-label="Call +91 77820 67143"
+          title="Call +91 77620 67143"
+          aria-label="Call +91 77620 67143"
         >
           <Phone className="w-5 h-5 text-[#023e60]" />
         </a>

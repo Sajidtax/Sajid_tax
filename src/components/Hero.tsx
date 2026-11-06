@@ -175,12 +175,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
               </a>
 
               <a
-                href="tel:+917782067143"
-                aria-label="Call +91 77820 67143"
+                href="tel:+917762067143"
+                aria-label="Call +91 77620 67143"
                 className="px-4 py-3 text-xs sm:text-sm font-bold text-[#111827] hover:text-[#023e60] bg-white border border-slate-300 rounded transition-colors flex items-center justify-center gap-2 min-h-[48px] min-w-[48px]"
               >
                 <PhoneCall className="w-3.5 h-3.5 text-[#15803d]" />
-                <span>+91 77820 67143</span>
+                <span>+91 77620 67143</span>
               </a>
             </div>
 

@@ -106,7 +106,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </li>
               ))}
               <li>
-                <a href="tel:+917782067143" aria-label="Call +91 77820 67143" className="text-[#87b978] font-semibold hover:underline">
+                <a href="tel:+917762067143" aria-label="Call +91 77620 67143" className="text-[#87b978] font-semibold hover:underline">
                   In-Person Advisory Desk →
                 </a>
               </li>

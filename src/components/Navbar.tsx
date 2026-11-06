@@ -84,12 +84,12 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-5">
             <a
-              href="tel:+917782067143"
-              aria-label="Call +91 77820 67143"
+              href="tel:+917762067143"
+              aria-label="Call +91 77620 67143"
               className="flex items-center gap-2 text-[#1f2937] hover:text-[#023e60] font-semibold transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#15803d]" />
-              <span>+91 77820 67143</span>
+              <span>+91 77620 67143</span>
             </a>
             <span className="text-slate-300">|</span>
             <a
@@ -122,9 +122,9 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* 2. Mobile Quick Tap Ribbon */}
       <div className="bg-[#023e60] text-white text-[11px] py-1.5 px-4 md:hidden flex items-center justify-between">
-        <a href="tel:+917782067143" aria-label="Call +91 77820 67143" className="flex items-center gap-1.5 font-bold hover:text-[#87b978]">
+        <a href="tel:+917762067143" aria-label="Call +91 77620 67143" className="flex items-center gap-1.5 font-bold hover:text-[#87b978]">
           <Phone className="w-3 h-3 text-[#4ade80]" />
-          <span>+91 77820 67143</span>
+          <span>+91 77620 67143</span>
         </a>
         <div className="flex items-center gap-2">
           <span className="inline-flex items-center gap-1 text-[10px] text-white font-medium">
@@ -133,7 +133,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </span>
           <span className="text-slate-400">·</span>
           <a
-            href="https://wa.me/917782067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
+            href="https://wa.me/917762067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#4ade80] font-bold text-[10.5px]"
@@ -440,7 +440,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               Schedule Consultation
             </button>
             <a
-              href="https://wa.me/917782067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
+              href="https://wa.me/917762067143?text=Hello%20Sajid%20Tax%20Consultant,%20I%20would%20like%20to%20consult%20regarding%20tax%20and%20compliance%20services."
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat with Sajid Tax Consultant on WhatsApp"

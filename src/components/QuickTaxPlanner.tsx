@@ -75,7 +75,7 @@ export const QuickTaxPlanner: React.FC<{ onOpenConsultation: (serviceTitle?: str
   ];
 
   const current = scenarios[selectedScenario];
-  const whatsappUrl = `https://wa.me/917782067143?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/917762067143?text=${encodeURIComponent(
     `Hello Sajid Tax Consultant, I am reviewing my compliance requirements for: ${current.title}. Please guide me on next steps.`
   )}`;
 

@@ -119,11 +119,11 @@ export const AboutFirm: React.FC<AboutFirmProps> = ({ onOpenConsultation }) => {
               Contact Our Advisors
             </button>
             <a
-              href="tel:+917782067143"
-              aria-label="Call +91 77820 67143"
+              href="tel:+917762067143"
+              aria-label="Call +91 77620 67143"
               className="px-6 py-3 text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded transition-all shadow min-h-[48px] min-w-[48px] flex items-center justify-center"
             >
-              Call +91 77820 67143
+              Call +91 77620 67143
             </a>
           </div>
         </div>

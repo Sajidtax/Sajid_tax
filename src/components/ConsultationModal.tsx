@@ -85,7 +85,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
   const selectedServiceObj = SERVICES_DATA.find((s) => s.id === formData.serviceId);
 
   const whatsappMessage = `Hello Sajid Tax Consultant,\n\nI would like to consult regarding:\n- Service: ${selectedServiceObj?.title || formData.serviceId}\n- Name: ${formData.fullName}\n- Phone: ${formData.phone}${formData.email ? `\n- Email: ${formData.email}` : ''}${formData.notes ? `\n- Notes: ${formData.notes}` : ''}`;
-  const whatsappUrl = `https://wa.me/917782067143?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/917762067143?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <div
@@ -149,7 +149,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   className="w-full py-3 px-4 text-xs font-bold uppercase tracking-wider text-white bg-[#15803d] hover:bg-[#166534] rounded flex items-center justify-center gap-2 transition-colors shadow-sm min-h-[48px] min-w-[48px]"
                 >
                   <MessageSquare className="w-4 h-4" />
-                  <span>Send to WhatsApp (+91 77820 67143)</span>
+                  <span>Send to WhatsApp (+91 77620 67143)</span>
                 </a>
 
                 <button
